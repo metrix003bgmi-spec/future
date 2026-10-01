@@ -840,8 +840,10 @@ export const productsDB: Record<string, any> = {
     type: "Curved 3-Seat Sofa",
     designer: "Sacha Lakic",
     images: [
-      "/Secondary/037.jpg",
-      "/Secondary/038.jpg"
+      "/Secondary/039.jpg",
+      "/Secondary/040.jpg",
+      "/Secondary/041.jpg",
+      "/Secondary/042.jpg"
     ],
     swatches: [
       { name: "Techno 2D - Yellow", hex: "#dcb935" },
@@ -866,8 +868,10 @@ export const productsDB: Record<string, any> = {
     type: "Curved 3-Seat Sofa",
     designer: "Sacha Lakic",
     images: [
-      "/Secondary/037.jpg",
-      "/Secondary/038.jpg"
+      "/Secondary/043.jpg",
+      "/Secondary/044.jpg",
+      "/Secondary/045.jpg",
+      "/Secondary/046.jpg"
     ],
     swatches: [
       { name: "Techno 2D - Yellow", hex: "#dcb935" },
@@ -892,8 +896,10 @@ export const productsDB: Record<string, any> = {
     type: "Curved 3-Seat Sofa",
     designer: "Sacha Lakic",
     images: [
-      "/Secondary/037.jpg",
-      "/Secondary/038.jpg"
+      "/Secondary/047.jpg",
+      "/Secondary/048.jpg",
+      "/Secondary/049.jpg",
+      "/Secondary/049(2).jpg"
     ],
     swatches: [
       { name: "Techno 2D - Yellow", hex: "#dcb935" },
@@ -918,8 +924,10 @@ export const productsDB: Record<string, any> = {
     type: "Curved 3-Seat Sofa",
     designer: "Sacha Lakic",
     images: [
-      "/Secondary/037.jpg",
-      "/Secondary/038.jpg"
+      "/Secondary/050.jpg",
+      "/Secondary/051.jpg",
+      "/Secondary/052.jpg",
+      "/Secondary/053.jpg"
     ],
     swatches: [
       { name: "Techno 2D - Yellow", hex: "#dcb935" },
@@ -944,8 +952,10 @@ export const productsDB: Record<string, any> = {
     type: "Curved 3-Seat Sofa",
     designer: "Sacha Lakic",
     images: [
-      "/Secondary/037.jpg",
-      "/Secondary/038.jpg"
+      "/Secondary/054.jpg",
+      "/Secondary/055.jpg",
+      "/Secondary/056.jpg",
+      "/Secondary/057.jpg"
     ],
     swatches: [
       { name: "Techno 2D - Yellow", hex: "#dcb935" },
@@ -970,8 +980,10 @@ export const productsDB: Record<string, any> = {
     type: "Curved 3-Seat Sofa",
     designer: "Sacha Lakic",
     images: [
-      "/Secondary/037.jpg",
-      "/Secondary/038.jpg"
+      "/Secondary/058.jpg",
+      "/Secondary/059.jpg",
+      "/Secondary/060.jpg",
+      "/Secondary/061.jpg"
     ],
     swatches: [
       { name: "Techno 2D - Yellow", hex: "#dcb935" },
@@ -996,8 +1008,10 @@ export const productsDB: Record<string, any> = {
     type: "Curved 3-Seat Sofa",
     designer: "Sacha Lakic",
     images: [
-      "/Secondary/037.jpg",
-      "/Secondary/038.jpg"
+      "/Secondary/062.jpg",
+      "/Secondary/063.jpg",
+      "/Secondary/064.jpg",
+      "/Secondary/065.jpg"
     ],
     swatches: [
       { name: "Techno 2D - Yellow", hex: "#dcb935" },
@@ -1022,8 +1036,10 @@ export const productsDB: Record<string, any> = {
     type: "Curved 3-Seat Sofa",
     designer: "Sacha Lakic",
     images: [
-      "/Secondary/037.jpg",
-      "/Secondary/038.jpg"
+      "/Secondary/066.jpg",
+      "/Secondary/067.jpg",
+      "/Secondary/068.jpg",
+      "/Secondary/069.jpg"
     ],
     swatches: [
       { name: "Techno 2D - Yellow", hex: "#dcb935" },
@@ -1048,8 +1064,11 @@ export const productsDB: Record<string, any> = {
     type: "Curved 3-Seat Sofa",
     designer: "Sacha Lakic",
     images: [
-      "/Secondary/037.jpg",
-      "/Secondary/038.jpg"
+      "/Secondary/070.jpg",
+      "/Secondary/071.jpg",
+      "/Secondary/072.jpg",
+      "/Secondary/073.jpg",
+      "/Secondary/074.jpg"
     ],
     swatches: [
       { name: "Techno 2D - Yellow", hex: "#dcb935" },
@@ -1074,8 +1093,10 @@ export const productsDB: Record<string, any> = {
     type: "Curved 3-Seat Sofa",
     designer: "Sacha Lakic",
     images: [
-      "/Secondary/037.jpg",
-      "/Secondary/038.jpg"
+      "/Secondary/075.jpg",
+      "/Secondary/076.jpg",
+      "/Secondary/077.jpg",
+      "/Secondary/078.jpg"
     ],
     swatches: [
       { name: "Techno 2D - Yellow", hex: "#dcb935" },
@@ -1100,8 +1121,11 @@ export const productsDB: Record<string, any> = {
     type: "Curved 3-Seat Sofa",
     designer: "Sacha Lakic",
     images: [
-      "/Secondary/037.jpg",
-      "/Secondary/038.jpg"
+      "/Secondary/079.jpg",
+      "/Secondary/080.jpg",
+      "/Secondary/081.jpg",
+      "/Secondary/082.jpg",
+      "/Secondary/083.jpg"
     ],
     swatches: [
       { name: "Techno 2D - Yellow", hex: "#dcb935" },
@@ -1126,8 +1150,10 @@ export const productsDB: Record<string, any> = {
     type: "Curved 3-Seat Sofa",
     designer: "Sacha Lakic",
     images: [
-      "/Secondary/037.jpg",
-      "/Secondary/038.jpg"
+      "/Secondary/084.jpg",
+      "/Secondary/085.jpg",
+      "/Secondary/086.jpg",
+      "/Secondary/087.jpg"
     ],
     swatches: [
       { name: "Techno 2D - Yellow", hex: "#dcb935" },
@@ -1152,8 +1178,10 @@ export const productsDB: Record<string, any> = {
     type: "Curved 3-Seat Sofa",
     designer: "Sacha Lakic",
     images: [
-      "/Secondary/037.jpg",
-      "/Secondary/038.jpg"
+      "/Secondary/088.jpg",
+      "/Secondary/089.jpg",
+      "/Secondary/090.jpg",
+      "/Secondary/091.jpg"
     ],
     swatches: [
       { name: "Techno 2D - Yellow", hex: "#dcb935" },
@@ -1178,8 +1206,10 @@ export const productsDB: Record<string, any> = {
     type: "Curved 3-Seat Sofa",
     designer: "Sacha Lakic",
     images: [
-      "/Secondary/037.jpg",
-      "/Secondary/038.jpg"
+      "/Secondary/092.jpg",
+      "/Secondary/093.jpg",
+      "/Secondary/094.jpg",
+      "/Secondary/095.jpg"
     ],
     swatches: [
       { name: "Techno 2D - Yellow", hex: "#dcb935" },
