@@ -152,6 +152,150 @@ export const catalogData = {
       imgPrimary: "/Secondary/037.jpg",
       imgSecondary: "/Secondary/038.jpg",
       link: "/product/retro"
+    },
+    {
+      id: "vip",
+      name: "Vip",
+      designer: "Hans Hopfer",
+      imgPrimary: "/Secondary/039.jpg",
+      imgSecondary: "/Secondary/041.jpg",
+      link: "/product/vip"
+    },
+    {
+      id: "foam",
+      name: "Foam",
+      designer: "Hans Hopfer",
+      imgPrimary: "/Secondary/043.jpg",
+      imgSecondary: "/Secondary/045.jpg",
+      link: "/product/foam"
+    },
+    {
+      id: "famy",
+      name: "Famy",
+      designer: "Sacha Lakic",
+      imgPrimary: "/Secondary/047.jpg",
+      imgSecondary: "/Secondary/049.jpg",
+      link: "/product/famy"
+    },
+    {
+      id: "cloud",
+      name: "Cloud",
+      designer: "Hans Hopfer",
+      imgPrimary: "/Secondary/050.jpg",
+      imgSecondary: "/Secondary/052.jpg",
+      link: "/product/cloud"
+    },
+    {
+      id: "casu",
+      name: "Casu",
+      designer: "Hans Hopfer",
+      imgPrimary: "/Secondary/054.jpg",
+      imgSecondary: "/Secondary/056.jpg",
+      link: "/product/casu"
+    },
+    {
+      id: "sway",
+      name: "Sway",
+      designer: "Hans Hopfer",
+      imgPrimary: "/Secondary/058.jpg",
+      imgSecondary: "/Secondary/060.jpg",
+      link: "/product/sway"
+    },
+    {
+      id: "peace",
+      name: "Peace",
+      designer: "Hans Hopfer",
+      imgPrimary: "/Secondary/062.jpg",
+      imgSecondary: "/Secondary/064.jpg",
+      link: "/product/peace"
+    },
+    {
+      id: "comba",
+      name: "Comba",
+      designer: "Hans Hopfer",
+      imgPrimary: "/Secondary/066.jpg",
+      imgSecondary: "/Secondary/068.jpg",
+      link: "/product/comba"
+    },
+    {
+      id: "musta",
+      name: "Musta",
+      designer: "Hans Hopfer",
+      imgPrimary: "/Secondary/070.jpg",
+      imgSecondary: "/Secondary/072.jpg",
+      link: "/product/musta"
+    },
+    {
+      id: "baw",
+      name: "Baw",
+      designer: "Hans Hopfer",
+      imgPrimary: "/Secondary/075.jpg",
+      imgSecondary: "/Secondary/077.jpg",
+      link: "/product/baw"
+    },
+    {
+      id: "tide",
+      name: "Tide",
+      designer: "Hans Hopfer",
+      imgPrimary: "/Secondary/079.jpg",
+      imgSecondary: "/Secondary/082.jpg",
+      link: "/product/tide"
+    },
+    {
+      id: "ancie",
+      name: "Ancie",
+      designer: "Hans Hopfer",
+      imgPrimary: "/Secondary/084.jpg",
+      imgSecondary: "/Secondary/086.jpg",
+      link: "/product/ancie"
+    },
+    {
+      id: "neat",
+      name: "Neat",
+      designer: "Hans Hopfer",
+      imgPrimary: "/Secondary/088.jpg",
+      imgSecondary: "/Secondary/090.jpg",
+      link: "/product/neat"
+    },
+    {
+      id: "grace",
+      name: "Grace",
+      designer: "Hans Hopfer",
+      imgPrimary: "/Secondary/092.jpg",
+      imgSecondary: "/Secondary/094.jpg",
+      link: "/product/grace"
+    },
+    {
+      id: "smoth",   
+      name: "Smoth",
+      designer: "Hans Hopfer",
+      imgPrimary: "/Secondary/096.jpg",
+      imgSecondary: "/Secondary/098.jpg",
+      link: "/product/smoth"
+    },
+    {
+      id: "modulo",
+      name: "Modulo",
+      designer: "Hans Hopfer",
+      imgPrimary: "/Secondary/100.jpg",
+      imgSecondary: "/Secondary/102.jpg",
+      link: "/product/modulo"
+    },
+    {
+      id: "matre",
+      name: "Matre",
+      designer: "Hans Hopfer",
+      imgPrimary: "/Secondary/104.jpg",
+      imgSecondary: "/Secondary/106.jpg",
+      link: "/product/matre"
+    },
+    {
+      id: "finn",
+      name: "Finn",
+      designer: "Hans Hopfer",
+      imgPrimary: "/Secondary/108.jpg",
+      imgSecondary: "/Secondary/110.jpg",
+      link: "/product/finn"
     }
     
 
@@ -689,6 +833,485 @@ export const productsDB: Record<string, any> = {
     },
     details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
   },
+  "retro": {
+    id: "retro",
+    category: "Sofas",
+    name: "Retro",
+    type: "Curved 3-Seat Sofa",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/037.jpg",
+      "/Secondary/038.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "retro": {
+    id: "retro",
+    category: "Sofas",
+    name: "Retro",
+    type: "Curved 3-Seat Sofa",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/037.jpg",
+      "/Secondary/038.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "retro": {
+    id: "retro",
+    category: "Sofas",
+    name: "Retro",
+    type: "Curved 3-Seat Sofa",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/037.jpg",
+      "/Secondary/038.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "retro": {
+    id: "retro",
+    category: "Sofas",
+    name: "Retro",
+    type: "Curved 3-Seat Sofa",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/037.jpg",
+      "/Secondary/038.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "retro": {
+    id: "retro",
+    category: "Sofas",
+    name: "Retro",
+    type: "Curved 3-Seat Sofa",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/037.jpg",
+      "/Secondary/038.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "retro": {
+    id: "retro",
+    category: "Sofas",
+    name: "Retro",
+    type: "Curved 3-Seat Sofa",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/037.jpg",
+      "/Secondary/038.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "retro": {
+    id: "retro",
+    category: "Sofas",
+    name: "Retro",
+    type: "Curved 3-Seat Sofa",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/037.jpg",
+      "/Secondary/038.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "retro": {
+    id: "retro",
+    category: "Sofas",
+    name: "Retro",
+    type: "Curved 3-Seat Sofa",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/037.jpg",
+      "/Secondary/038.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "retro": {
+    id: "retro",
+    category: "Sofas",
+    name: "Retro",
+    type: "Curved 3-Seat Sofa",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/037.jpg",
+      "/Secondary/038.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "retro": {
+    id: "retro",
+    category: "Sofas",
+    name: "Retro",
+    type: "Curved 3-Seat Sofa",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/037.jpg",
+      "/Secondary/038.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "retro": {
+    id: "retro",
+    category: "Sofas",
+    name: "Retro",
+    type: "Curved 3-Seat Sofa",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/037.jpg",
+      "/Secondary/038.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "retro": {
+    id: "retro",
+    category: "Sofas",
+    name: "Retro",
+    type: "Curved 3-Seat Sofa",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/037.jpg",
+      "/Secondary/038.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "retro": {
+    id: "retro",
+    category: "Sofas",
+    name: "Retro",
+    type: "Curved 3-Seat Sofa",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/037.jpg",
+      "/Secondary/038.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "retro": {
+    id: "retro",
+    category: "Sofas",
+    name: "Retro",
+    type: "Curved 3-Seat Sofa",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/037.jpg",
+      "/Secondary/038.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "smoth": {
+    id: "smoth",
+    category: "Sofas",
+    name: "Smoth",
+    type: "Curved 3-Seat Sofa",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/096.jpg",
+      "/Secondary/097.jpg",
+      "/Secondary/098.jpg",
+      "/Secondary/099.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "modulo": {
+    id: "modulo",
+    category: "Sofas",
+    name: "Modulo",
+    type: "Curved 3-Seat Sofa",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/100.jpg",
+      "/Secondary/101.jpg",
+      "/Secondary/102.jpg",
+      "/Secondary/103.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "matre": {
+    id: "matre",
+    category: "Sofas",
+    name: "Matre",
+    type: "Curved 3-Seat Sofa",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/104.jpg",
+      "/Secondary/105.jpg",
+      "/Secondary/106.jpg",
+      "/Secondary/107.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "finn": {
+    id: "finn",
+    category: "Sofas",
+    name: "Finn",
+    type: "Curved 3-Seat Sofa",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/108.jpg",
+      "/Secondary/109.jpg",
+      "/Secondary/110.jpg",
+      "/Secondary/111.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+
+
+
   "bed-alpha": {
     id: "bed-alpha",
     category: "Beds",
