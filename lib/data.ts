@@ -833,10 +833,10 @@ export const productsDB: Record<string, any> = {
     },
     details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
   },
-  "retro": {
-    id: "retro",
+  "vip": {
+    id: "vip",
     category: "Sofas",
-    name: "Retro",
+    name: "Vip",
     type: "Curved 3-Seat Sofa",
     designer: "Sacha Lakic",
     images: [
@@ -859,10 +859,10 @@ export const productsDB: Record<string, any> = {
     },
     details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
   },
-  "retro": {
-    id: "retro",
+  "foam": {
+    id: "foam",
     category: "Sofas",
-    name: "Retro",
+    name: "Foam",
     type: "Curved 3-Seat Sofa",
     designer: "Sacha Lakic",
     images: [
@@ -885,10 +885,10 @@ export const productsDB: Record<string, any> = {
     },
     details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
   },
-  "retro": {
-    id: "retro",
+  "famy": {
+    id: "famy",
     category: "Sofas",
-    name: "Retro",
+    name: "Famy",
     type: "Curved 3-Seat Sofa",
     designer: "Sacha Lakic",
     images: [
@@ -911,10 +911,10 @@ export const productsDB: Record<string, any> = {
     },
     details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
   },
-  "retro": {
-    id: "retro",
+  "cloud": {
+    id: "cloud",
     category: "Sofas",
-    name: "Retro",
+    name: "Cloud",
     type: "Curved 3-Seat Sofa",
     designer: "Sacha Lakic",
     images: [
@@ -937,10 +937,10 @@ export const productsDB: Record<string, any> = {
     },
     details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
   },
-  "retro": {
-    id: "retro",
+  "casu": {
+    id: "casu",
     category: "Sofas",
-    name: "Retro",
+    name: "Casu",
     type: "Curved 3-Seat Sofa",
     designer: "Sacha Lakic",
     images: [
@@ -963,10 +963,10 @@ export const productsDB: Record<string, any> = {
     },
     details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
   },
-  "retro": {
-    id: "retro",
+  "sway": {
+    id: "sway",
     category: "Sofas",
-    name: "Retro",
+    name: "Sway",
     type: "Curved 3-Seat Sofa",
     designer: "Sacha Lakic",
     images: [
@@ -989,10 +989,10 @@ export const productsDB: Record<string, any> = {
     },
     details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
   },
-  "retro": {
-    id: "retro",
+  "peace": {
+    id: "peace",
     category: "Sofas",
-    name: "Retro",
+    name: "Peace",
     type: "Curved 3-Seat Sofa",
     designer: "Sacha Lakic",
     images: [
@@ -1015,10 +1015,10 @@ export const productsDB: Record<string, any> = {
     },
     details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
   },
-  "retro": {
-    id: "retro",
+  "comba": {
+    id: "comba",
     category: "Sofas",
-    name: "Retro",
+    name: "Comba",
     type: "Curved 3-Seat Sofa",
     designer: "Sacha Lakic",
     images: [
@@ -1041,10 +1041,10 @@ export const productsDB: Record<string, any> = {
     },
     details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
   },
-  "retro": {
-    id: "retro",
+  "musta": {
+    id: "musta",
     category: "Sofas",
-    name: "Retro",
+    name: "Musta",
     type: "Curved 3-Seat Sofa",
     designer: "Sacha Lakic",
     images: [
@@ -1067,10 +1067,10 @@ export const productsDB: Record<string, any> = {
     },
     details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
   },
-  "retro": {
-    id: "retro",
+  "baw": {
+    id: "baw",
     category: "Sofas",
-    name: "Retro",
+    name: "Baw",
     type: "Curved 3-Seat Sofa",
     designer: "Sacha Lakic",
     images: [
@@ -1093,10 +1093,10 @@ export const productsDB: Record<string, any> = {
     },
     details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
   },
-  "retro": {
-    id: "retro",
+  "tide": {
+    id: "tide",
     category: "Sofas",
-    name: "Retro",
+    name: "Tide",
     type: "Curved 3-Seat Sofa",
     designer: "Sacha Lakic",
     images: [
@@ -1119,10 +1119,10 @@ export const productsDB: Record<string, any> = {
     },
     details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
   },
-  "retro": {
-    id: "retro",
+  "ancie": {
+    id: "ancie",
     category: "Sofas",
-    name: "Retro",
+    name: "Ancie",
     type: "Curved 3-Seat Sofa",
     designer: "Sacha Lakic",
     images: [
@@ -1145,10 +1145,10 @@ export const productsDB: Record<string, any> = {
     },
     details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
   },
-  "retro": {
-    id: "retro",
+  "neat": {
+    id: "neat",
     category: "Sofas",
-    name: "Retro",
+    name: "Neat",
     type: "Curved 3-Seat Sofa",
     designer: "Sacha Lakic",
     images: [
@@ -1171,10 +1171,10 @@ export const productsDB: Record<string, any> = {
     },
     details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
   },
-  "retro": {
-    id: "retro",
+  "grace": {
+    id: "grace",
     category: "Sofas",
-    name: "Retro",
+    name: "Grace",
     type: "Curved 3-Seat Sofa",
     designer: "Sacha Lakic",
     images: [
