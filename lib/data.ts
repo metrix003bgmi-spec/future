@@ -5,7 +5,7 @@ export const catalogData = {
       id: "bubble",
       name: "Bubble",
       designer: "Sacha Lakic",
-      imgPrimary: "/Catalogue Images/Sofa Sets/¦+¦+3 (18).jpg",
+      imgPrimary: "/Catalogue Images/Sofa Sets/ci.jpg",
       imgSecondary: "/Secondary/002.jpg",
       link: "/product/bubble"
     },
@@ -13,7 +13,7 @@ export const catalogData = {
       id: "mah-jong",
       name: "Mah Jong",
       designer: "Hans Hopfer",
-      imgPrimary: "/Catalogue Images/Sofa Sets/¦+¦+3 (23).jpg",
+      imgPrimary: "/Catalogue Images/Sofa Sets/ci2.jpg",
       imgSecondary: "/Secondary/003.jpg",
       link: "/product/mah-jong"
     },
@@ -21,7 +21,7 @@ export const catalogData = {
       id: "meridian",
       name: "Meridian",
       designer: "Hans Hopfer",
-      imgPrimary: "/Catalogue Images/Sofa Sets/¦+¦+3 (11).jpg",
+      imgPrimary: "/Catalogue Images/Sofa Sets/ci3.jpg",
       imgSecondary: "/Secondary/001.jpg",
       link: "/product/meridian"
     },
@@ -29,7 +29,7 @@ export const catalogData = {
       id: "verio",
       name: "Verio",
       designer: "Sacha Lakic",
-      imgPrimary: "/Catalogue Images/Sofa Sets/¦+¦+3 (30).jpg",
+      imgPrimary: "/Catalogue Images/Sofa Sets/ci4.jpg",
       imgSecondary: "/Secondary/005.jpg",
       link: "/product/verio"
     },
@@ -37,7 +37,7 @@ export const catalogData = {
       id: "milano",
       name: "Milano",
       designer: "Hans Hopfer",
-      imgPrimary: "/Catalogue Images/Sofa Sets/¦+¦+3 (35).jpg",
+      imgPrimary: "/Catalogue Images/Sofa Sets/ci5.jpg",
       imgSecondary: "/Secondary/004.jpg",
       link: "/product/milano"
     },
@@ -45,7 +45,7 @@ export const catalogData = {
       id: "onsa",
       name: "Onsa",
       designer: "Hans Hopfer",
-      imgPrimary: "/Catalogue Images/Sofa Sets/¦+¦+6 (19).jpg",
+      imgPrimary: "/Catalogue Images/Sofa Sets/ci6.jpg",
       imgSecondary: "/Secondary/006.jpg",
       link: "/product/onsa"
     },
@@ -53,7 +53,7 @@ export const catalogData = {
       id: "encore",
       name: "Encore",
       designer: "Hans Hopfer",
-      imgPrimary: "/Catalogue Images/Sofa Sets/¦+¦+6 (42).jpg",
+      imgPrimary: "/Catalogue Images/Sofa Sets/ci7.jpg",
       imgSecondary: "/Secondary/007.jpg",
       link: "/product/encore"
     },
@@ -85,7 +85,7 @@ export const catalogData = {
       id: "trops",
       name: "Trops",
       designer: "Hans Hopfer",
-      imgPrimary: "/Catalogue Images/Sofa Sets/¦+¦+3 (41).jpg",
+      imgPrimary: "/Catalogue Images/Sofa Sets/ci8.jpg",
       imgSecondary: "/Secondary/016.jpg",
       link: "/product/trops"
     },
@@ -177,9 +177,9 @@ export const productsDB: Record<string, any> = {
     type: "Curved 3-Seat Sofa",
     designer: "Sacha Lakic",
     images: [
-      "/Catalogue Images/Sofa Sets/¦+¦+3 (18).jpg",
-      "/Catalogue Images/Sofa Sets/¦+¦+3 (21).jpg",
-      "/Catalogue Images/Sofa Sets/¦+¦+3 (20).jpg",
+      "/Catalogue Images/Sofa Sets/ci.jpg",
+      "/Catalogue Images/Sofa Sets/ci9.jpg",
+      "/Catalogue Images/Sofa Sets/ci10.jpg",
       "/Secondary/002.jpg"
     ],
     swatches: [
@@ -205,9 +205,9 @@ export const productsDB: Record<string, any> = {
     type: "Modular Sofa Composition",
     designer: "Hans Hopfer",
     images: [
-      "/Catalogue Images/Sofa Sets/¦+¦+3 (23).jpg",
-      "/gallery/¦+¦+3 (24).jpg",
-      "/gallery/¦+¦+3 (25).jpg",
+      "/Catalogue Images/Sofa Sets/ci2.jpg",
+      "/gallery/g1.jpg",
+      "/gallery/g2.jpg",
       "/Secondary/003.jpg"
     ],
     swatches: [
@@ -233,9 +233,9 @@ export const productsDB: Record<string, any> = {
     type: "Curved 3-Seat Sofa",
     designer: "Sacha Lakic",
     images: [
-      "/Catalogue Images/Sofa Sets/¦+¦+3 (11).jpg",
-      "/gallery/¦+¦+3 (12).jpg",
-      "/gallery/¦+¦+3 (17).jpg",
+      "/Catalogue Images/Sofa Sets/ci3.jpg",
+      "/gallery/g3.jpg",
+      "/gallery/g4.jpg",
       "/Secondary/001.jpg"
     ],
     swatches: [
@@ -261,9 +261,9 @@ export const productsDB: Record<string, any> = {
     type: "Curved 3-Seat Sofa",
     designer: "Sacha Lakic",
     images: [
-      "/Catalogue Images/Sofa Sets/¦+¦+3 (30).jpg",
-      "/gallery/¦+¦+3 (29).jpg",
-      "/gallery/¦+¦+3 (32).jpg",
+      "/Catalogue Images/Sofa Sets/ci4.jpg",
+      "/gallery/g5.jpg",
+      "/gallery/g6.jpg",
       "/Secondary/005.jpg"
     ],
     swatches: [
@@ -289,9 +289,9 @@ export const productsDB: Record<string, any> = {
     type: "Curved 3-Seat Sofa",
     designer: "Sacha Lakic",
     images: [
-      "/Catalogue Images/Sofa Sets/¦+¦+3 (35).jpg",
-      "/gallery/¦+¦+3 (34).jpg",
-      "/gallery/¦+¦+3 (36).jpg",
+      "/Catalogue Images/Sofa Sets/ci5.jpg",
+      "/gallery/g7.jpg",
+      "/gallery/g8.jpg",
       "/Secondary/004.jpg"
     ],
     swatches: [
@@ -317,9 +317,9 @@ export const productsDB: Record<string, any> = {
     type: "Curved 3-Seat Sofa",
     designer: "Sacha Lakic",
     images: [
-      "/Catalogue Images/Sofa Sets/¦+¦+6 (19).jpg",
-      "/gallery/¦+¦+6 (22).jpg",
-      "/gallery/¦+¦+6 (24).jpg",
+      "/Catalogue Images/Sofa Sets/ci6.jpg",
+      "/gallery/g9.jpg",
+      "/gallery/g10.jpg",
       "/Secondary/006.jpg"
     ],
     swatches: [
@@ -345,9 +345,9 @@ export const productsDB: Record<string, any> = {
     type: "Curved 3-Seat Sofa",
     designer: "Sacha Lakic",
     images: [
-      "/Catalogue Images/Sofa Sets/¦+¦+6 (42).jpg",
-      "/gallery/¦+¦+6 (43).jpg",
-      "/gallery/¦+¦+6 (44).jpg",
+      "/Catalogue Images/Sofa Sets/ci7.jpg",
+      "/gallery/g11.jpg",
+      "/gallery/g12.jpg",
       "/Secondary/007.jpg"
     ],
     swatches: [
@@ -454,9 +454,9 @@ export const productsDB: Record<string, any> = {
     type: "Curved 3-Seat Sofa",
     designer: "Sacha Lakic",
     images: [
-      "/Catalogue Images/Sofa Sets/¦+¦+3 (41).jpg",
-      "/Catalogue Images/Sofa Sets/¦+¦+3 (40).jpg",
-      "/Catalogue Images/Sofa Sets/¦+¦+3 (42).jpg",
+      "/Catalogue Images/Sofa Sets/ci8.jpg",
+      "/Catalogue Images/Sofa Sets/ci11.jpg",
+      "/Catalogue Images/Sofa Sets/ci12.jpg",
       "/Secondary/016.jpg"
     ],
     swatches: [
