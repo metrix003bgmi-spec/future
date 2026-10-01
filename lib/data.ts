@@ -308,6 +308,22 @@ export const catalogData = {
       imgPrimary: "/Catalogue Images/Bed Sets/178.jpg", 
       imgSecondary: "/Secondary/008.jpg",
       link: "/product/bed-alpha"
+    },
+    {
+      id: "luxe",
+      name: "Luxe Bed",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/b1.jpg", 
+      imgSecondary: "/Secondary/b3.jpg",
+      link: "/product/bed-luxe"
+    },
+    {
+      id: "nod",
+      name: "Nod",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/b5.jpg", 
+      imgSecondary: "/Secondary/b7.jpg",
+      link: "/product/nod"
     }
   ]
 };
@@ -1352,6 +1368,62 @@ export const productsDB: Record<string, any> = {
       "/Catalogue Images/Bed Sets/178.jpg",
       "/gallery/179.jpg",
       "/Secondary/008.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "bed-luxe": {
+    id: "bed-luxe",
+    category: "Beds",
+    name: "Luxe",
+    type: "Modular Bed System",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/b1.jpg",
+      "/Secondary/b2.jpg",
+      "/Secondary/b3.jpg",
+      "/Secondary/b4.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "nod": {
+    id: "nod",
+    category: "Beds",
+    name: "Nod",
+    type: "Modular Bed System",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/b5.jpg",
+      "/Secondary/b6.jpg",
+      "/Secondary/b7.jpg",
+      "/Secondary/b8.jpg"
     ],
     swatches: [
       { name: "Techno 2D - Yellow", hex: "#dcb935" },
