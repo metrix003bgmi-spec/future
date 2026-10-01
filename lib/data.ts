@@ -136,6 +136,22 @@ export const catalogData = {
       imgPrimary: "/Secondary/032.jpg",
       imgSecondary: "/Secondary/034.jpg",
       link: "/product/avant"
+    },
+    {
+      id: "sky",
+      name: "Sky",
+      designer: "Hans Hopfer",
+      imgPrimary: "/Secondary/035.jpg",
+      imgSecondary: "/Secondary/036.jpg",
+      link: "/product/sky"
+    },
+    {
+      id: "retro",
+      name: "Retro",
+      designer: "Hans Hopfer",
+      imgPrimary: "/Secondary/037.jpg",
+      imgSecondary: "/Secondary/038.jpg",
+      link: "/product/retro"
     }
     
 
@@ -621,11 +637,92 @@ export const productsDB: Record<string, any> = {
     },
     details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
   },
+  "sky": {
+    id: "sky",
+    category: "Sofas",
+    name: "Sky",
+    type: "Curved 3-Seat Sofa",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/035.jpg",
+      "/Secondary/036.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "retro": {
+    id: "retro",
+    category: "Sofas",
+    name: "Retro",
+    type: "Curved 3-Seat Sofa",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/037.jpg",
+      "/Secondary/038.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
   "bed-alpha": {
     id: "bed-alpha",
     category: "Beds",
     name: "Alpha",
     type: "Modular Bed System",
+    designer: "Sacha Lakic",
+    images: [
+      "/Catalogue Images/Bed Sets/178.jpg",
+      "/gallery/179.jpg",
+      "/Secondary/008.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+
+
+  "goldy": {
+    id: "goldy",
+    category: "Sideboards",
+    name: "Goldy",
+    type: "Sideboard",
     designer: "Sacha Lakic",
     images: [
       "/Catalogue Images/Bed Sets/178.jpg",
