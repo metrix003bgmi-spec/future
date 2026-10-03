@@ -230,7 +230,7 @@ const toggleCategory = (title: string) => {
         />
 
         {/* Static Image Section */}
-        <section className="snap-start h-screen w-full relative overflow-hidden">
+        {/* <section className="snap-start h-screen w-full relative overflow-hidden">
           <img 
             src="https://www.roche-bobois.com/on/demandware.static/-/Library-Sites-roche-bobois/default/dwc6ce4bb8/Home/SliderPrincipal/Produits-2025-2/Deltalis_Desktop.jpg" 
             className="w-full h-full object-cover" 
@@ -244,7 +244,13 @@ const toggleCategory = (title: string) => {
               <FaChevronRight className="text-xs" /> more
             </a>
           </div>
-        </section>
+        </section> */}
+        <VideoSection 
+          src="/homepage/dt.mp4"
+          poster="https://embed-ssl.wistia.com/deliveries/a1c0f3aff7674a95974c12e5236667e81c5d783f.jpg?image_crop_resized=1920x1080"
+          title="Conversation"
+          designer="Philippe Bouix"
+        />
 
         <VideoSection 
           src="https://embed-ssl.wistia.com/deliveries/04387e5d15ff005f4a21c26d0182fb1d6234d914.m3u8"
