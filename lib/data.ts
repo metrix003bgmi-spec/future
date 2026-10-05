@@ -324,7 +324,72 @@ export const catalogData = {
       imgPrimary: "/Secondary/b5.jpg", 
       imgSecondary: "/Secondary/b7.jpg",
       link: "/product/nod"
+    },
+    {
+      id: "grizz",
+      name: "Grizz",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/b9.jpg", 
+      imgSecondary: "/Secondary/b11.jpg",
+      link: "/product/grizz"
+    },
+    {
+      id: "mod",
+      name: "Mod",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/b15.jpg", 
+      imgSecondary: "/Secondary/b17.jpg",
+      link: "/product/mod"
+    },
+    {
+      id: "arctic",
+      name: "Arctic",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/b20.jpg", 
+      imgSecondary: "/Secondary/b22.jpg",
+      link: "/product/arctic"
+    },
+    {
+      id: "forest",
+      name: "Forest",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/b25.jpg", 
+      imgSecondary: "/Secondary/b27.jpg",
+      link: "/product/forest"
+    },
+    {
+      id: "star",
+      name: "Star",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/b30.jpg", 
+      imgSecondary: "/Secondary/b33.jpg",
+      link: "/product/star"
+    },
+    {
+      id: "suede",
+      name: "Suede",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/b37.jpg", 
+      imgSecondary: "/Secondary/b39.jpg",
+      link: "/product/suede"
+    },
+    {
+      id: "merry",
+      name: "Merry",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/b42.jpg", 
+      imgSecondary: "/Secondary/b44.jpg",
+      link: "/product/merry"
+    },
+    {
+      id: "high",
+      name: "High",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/b48.jpg", 
+      imgSecondary: "/Secondary/b50.jpg",
+      link: "/product/high"
     }
+    
   ]
 };
 
@@ -1424,6 +1489,242 @@ export const productsDB: Record<string, any> = {
       "/Secondary/b6.jpg",
       "/Secondary/b7.jpg",
       "/Secondary/b8.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "grizz": {
+    id: "grizz",
+    category: "Beds",
+    name: "Grizz",
+    type: "Modular Bed System",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/b9.jpg",
+      "/Secondary/b10.jpg",
+      "/Secondary/b11.jpg",
+      "/Secondary/b12.jpg",
+      "/Secondary/b13.jpg",
+      "/Secondary/b14.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "mod": {
+    id: "mod",
+    category: "Beds",
+    name: "Mod",
+    type: "Modular Bed System",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/b15.jpg",
+      "/Secondary/b16.jpg",
+      "/Secondary/b17.jpg",
+      "/Secondary/b18.jpg",
+      "/Secondary/b19.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "arctic": {
+    id: "arctic",
+    category: "Beds",
+    name: "Arctic",
+    type: "Modular Bed System",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/b20.jpg",
+      "/Secondary/b21.jpg",
+      "/Secondary/b22.jpg",
+      "/Secondary/b23.jpg",
+      "/Secondary/b24.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "forest": {
+    id: "forest",
+    category: "Beds",
+    name: "Forest",
+    type: "Modular Bed System",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/b25.jpg",
+      "/Secondary/b26.jpg",
+      "/Secondary/b27.jpg",
+      "/Secondary/b28.jpg",
+      "/Secondary/b29.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "star": {
+    id: "star",
+    category: "Beds",
+    name: "Star",
+    type: "Modular Bed System",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/b30.jpg",
+      "/Secondary/b31.jpg",
+      "/Secondary/b32.jpg",
+      "/Secondary/b33.jpg",
+      "/Secondary/b34.jpg",
+      "/Secondary/b35.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "suede": {
+    id: "suede",
+    category: "Beds",
+    name: "Suede",
+    type: "Modular Bed System",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/b36.jpg",
+      "/Secondary/b37.jpg",
+      "/Secondary/b38.jpg",
+      "/Secondary/b39.jpg",
+      "/Secondary/b40.jpg",
+      "/Secondary/b41.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "merry": {
+    id: "merry",
+    category: "Beds",
+    name: "Merry",
+    type: "Modular Bed System",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/b42.jpg",
+      "/Secondary/b43.jpg",
+      "/Secondary/b44.jpg",
+      "/Secondary/b45.jpg",
+      "/Secondary/b46.jpg",
+      "/Secondary/b47.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "high": {
+    id: "high",
+    category: "Beds",
+    name: "High",
+    type: "Modular Bed System",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/b48.jpg",
+      "/Secondary/b49.jpg",
+      "/Secondary/b50.jpg",
+      "/Secondary/b51.jpg",
+      "/Secondary/b52.jpg"
     ],
     swatches: [
       { name: "Techno 2D - Yellow", hex: "#dcb935" },
