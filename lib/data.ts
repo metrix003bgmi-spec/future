@@ -446,6 +446,32 @@ export const catalogData = {
       link: "/product/everest"
     }
     
+  ],
+  sideboards: [
+    {
+      id: "goldy",
+      name: "Goldy",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/sb1.jpg", 
+      imgSecondary: "/Secondary/sb3.jpg",
+      link: "/product/goldy"
+    },
+    {
+      id: "dots",
+      name: "Dots",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/sb5.jpg", 
+      imgSecondary: "/Secondary/sb7.jpg",
+      link: "/product/dots"
+    },
+    {
+      id: "lime",
+      name: "Lime",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/sb9.jpg", 
+      imgSecondary: "/Secondary/sb11.jpg",
+      link: "/product/lime"
+    }
   ]
 };
 
@@ -2020,9 +2046,66 @@ export const productsDB: Record<string, any> = {
     type: "Sideboard",
     designer: "Sacha Lakic",
     images: [
-      "/Catalogue Images/Bed Sets/178.jpg",
-      "/gallery/179.jpg",
-      "/Secondary/008.jpg"
+      "/Secondary/sb1.jpg",
+      "/Secondary/sb2.jpg",
+      "/Secondary/sb3.jpg",
+      "/Secondary/sb4.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "dots": {
+    id: "dots",
+    category: "Sideboards",
+    name: "Dots",
+    type: "Sideboard",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/sb5.jpg",
+      "/Secondary/sb6.jpg",
+      "/Secondary/sb7.jpg",
+      "/Secondary/sb8.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "lime": {
+    id: "lime",
+    category: "Sideboards",
+    name: "Lime",
+    type: "Sideboard",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/sb9.jpg",
+      "/Secondary/sb10.jpg",
+      "/Secondary/sb11.jpg",
+      "/Secondary/sb12.jpg"
     ],
     swatches: [
       { name: "Techno 2D - Yellow", hex: "#dcb935" },
