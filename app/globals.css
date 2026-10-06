@@ -1,11 +1,11 @@
 @import "tailwindcss";
 
 @theme {
-  /* Maps text-sans and font-sans to Open Sans */
-  --font-sans: var(--font-open-sans), ui-sans-serif, system-ui, sans-serif;
+  /* Overrides the default 'font-sans' used on the body and paragraphs */
+  --font-sans: var(--font-primary), ui-sans-serif, system-ui, sans-serif;
   
-  /* Maps font-lato to Lato */
-  --font-lato: var(--font-lato), sans-serif;
+  /* Hijacks your existing 'font-lato' class so you don't have to rename it in every file */
+  --font-lato: var(--font-heading), serif;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */

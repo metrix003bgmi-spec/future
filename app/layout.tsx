@@ -1,15 +1,17 @@
 import './globals.css';
-import { Open_Sans, Lato } from 'next/font/google';
+// 1. Import your new fonts
+import { Inter, Playfair_Display } from 'next/font/google';
 
-const openSans = Open_Sans({
+// 2. Configure the primary text font
+const primaryFont = Inter({
   subsets: ['latin'],
-  variable: '--font-open-sans', // Creates a CSS variable
+  variable: '--font-primary', 
 });
 
-const lato = Lato({
+// 3. Configure the heading font
+const headingFont = Playfair_Display({
   subsets: ['latin'],
-  weight: ['100', '300', '400', '700', '900'],
-  variable: '--font-lato', // Creates a CSS variable
+  variable: '--font-heading',
 });
 
 export const metadata = {
@@ -23,8 +25,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    // Apply the font variables to the root HTML
-    <html lang="en" className={`${openSans.variable} ${lato.variable}`}>
+    // 4. Inject the new variables into the HTML tag
+    <html lang="en" className={`${primaryFont.variable} ${headingFont.variable}`}>
       <body className="font-sans antialiased bg-black m-0 p-0">
         {children}
       </body>

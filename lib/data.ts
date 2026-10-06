@@ -7,7 +7,8 @@ export const catalogData = {
       designer: "Sacha Lakic",
       imgPrimary: "/Catalogue Images/Sofa Sets/ci.jpg",
       imgSecondary: "/Secondary/002.jpg",
-      link: "/product/bubble"
+      link: "/product/bubble",
+      style: "Luxury"
     },
     {
       id: "mah-jong",
@@ -15,7 +16,9 @@ export const catalogData = {
       designer: "Hans Hopfer",
       imgPrimary: "/Catalogue Images/Sofa Sets/ci2.jpg",
       imgSecondary: "/Secondary/003.jpg",
-      link: "/product/mah-jong"
+      link: "/product/mah-jong",
+      style: "Modern",
+      subStyle: "Premium"
     },
     {
       id: "meridian",
@@ -23,7 +26,9 @@ export const catalogData = {
       designer: "Hans Hopfer",
       imgPrimary: "/Catalogue Images/Sofa Sets/ci3.jpg",
       imgSecondary: "/Secondary/001.jpg",
-      link: "/product/meridian"
+      link: "/product/meridian",
+      style: "Modern",
+      subStyle: "Premium"
     },
     {
       id: "verio",
@@ -307,7 +312,9 @@ export const catalogData = {
       designer: "FurnWalk Studio",
       imgPrimary: "/Catalogue Images/Bed Sets/178.jpg", 
       imgSecondary: "/Secondary/008.jpg",
-      link: "/product/bed-alpha"
+      link: "/product/bed-alpha",
+      style: "Modern",
+      subStyle: "Premium"
     },
     {
       id: "luxe",
@@ -315,7 +322,9 @@ export const catalogData = {
       designer: "FurnWalk Studio",
       imgPrimary: "/Secondary/b1.jpg", 
       imgSecondary: "/Secondary/b3.jpg",
-      link: "/product/bed-luxe"
+      link: "/product/bed-luxe",
+      style: "Modern",
+      subStyle: "Premium"
     },
     {
       id: "nod",
@@ -323,7 +332,9 @@ export const catalogData = {
       designer: "FurnWalk Studio",
       imgPrimary: "/Secondary/b5.jpg", 
       imgSecondary: "/Secondary/b7.jpg",
-      link: "/product/nod"
+      link: "/product/nod",
+      style: "Modern",
+      subStyle: "Premium" 
     },
     {
       id: "grizz",
@@ -331,7 +342,9 @@ export const catalogData = {
       designer: "FurnWalk Studio",
       imgPrimary: "/Secondary/b9.jpg", 
       imgSecondary: "/Secondary/b11.jpg",
-      link: "/product/grizz"
+      link: "/product/grizz",
+      style: "Modern",
+      subStyle: "Economic"
     },
     {
       id: "mod",
@@ -339,7 +352,9 @@ export const catalogData = {
       designer: "FurnWalk Studio",
       imgPrimary: "/Secondary/b15.jpg", 
       imgSecondary: "/Secondary/b17.jpg",
-      link: "/product/mod"
+      link: "/product/mod",
+      style: "Modern",
+      subStyle: "Premium"
     },
     {
       id: "arctic",
@@ -347,7 +362,9 @@ export const catalogData = {
       designer: "FurnWalk Studio",
       imgPrimary: "/Secondary/b20.jpg", 
       imgSecondary: "/Secondary/b22.jpg",
-      link: "/product/arctic"
+      link: "/product/arctic",
+      style: "Modern",
+      subStyle: "Economic"
     },
     {
       id: "forest",
@@ -355,7 +372,8 @@ export const catalogData = {
       designer: "FurnWalk Studio",
       imgPrimary: "/Secondary/b25.jpg", 
       imgSecondary: "/Secondary/b27.jpg",
-      link: "/product/forest"
+      link: "/product/forest",
+      style: "Luxury"
     },
     {
       id: "star",
@@ -363,7 +381,8 @@ export const catalogData = {
       designer: "FurnWalk Studio",
       imgPrimary: "/Secondary/b30.jpg", 
       imgSecondary: "/Secondary/b33.jpg",
-      link: "/product/star"
+      link: "/product/star",
+      style: "Luxury"
     },
     {
       id: "suede",
@@ -371,7 +390,8 @@ export const catalogData = {
       designer: "FurnWalk Studio",
       imgPrimary: "/Secondary/b37.jpg", 
       imgSecondary: "/Secondary/b39.jpg",
-      link: "/product/suede"
+      link: "/product/suede",
+      style: "Luxury"
     },
     {
       id: "merry",
@@ -379,7 +399,8 @@ export const catalogData = {
       designer: "FurnWalk Studio",
       imgPrimary: "/Secondary/b42.jpg", 
       imgSecondary: "/Secondary/b44.jpg",
-      link: "/product/merry"
+      link: "/product/merry",
+      style: "Luxury"
     },
     {
       id: "high",
@@ -387,7 +408,8 @@ export const catalogData = {
       designer: "FurnWalk Studio",
       imgPrimary: "/Secondary/b48.jpg", 
       imgSecondary: "/Secondary/b50.jpg",
-      link: "/product/high"
+      link: "/product/high",
+      style: "Luxury"
     },
     {
       id: "lit",
@@ -395,7 +417,8 @@ export const catalogData = {
       designer: "FurnWalk Studio",
       imgPrimary: "/Secondary/b53.jpg", 
       imgSecondary: "/Secondary/b55.jpg",
-      link: "/product/lit"
+      link: "/product/lit",
+      style: "Luxury"
     },
     {
       id: "leo",
@@ -403,7 +426,8 @@ export const catalogData = {
       designer: "FurnWalk Studio",
       imgPrimary: "/Secondary/b59.jpg", 
       imgSecondary: "/Secondary/b61.jpg",
-      link: "/product/leo"
+      link: "/product/leo",
+      style: "Luxury"
     },
     {
       id: "shine",
@@ -411,7 +435,8 @@ export const catalogData = {
       designer: "FurnWalk Studio",
       imgPrimary: "/Secondary/b65.jpg", 
       imgSecondary: "/Secondary/b67.jpg",
-      link: "/product/shine"
+      link: "/product/shine",
+      style: "Luxury"
     },
     {
       id: "aqua",
@@ -419,7 +444,9 @@ export const catalogData = {
       designer: "FurnWalk Studio",
       imgPrimary: "/Secondary/b71.jpg", 
       imgSecondary: "/Secondary/b73.jpg",
-      link: "/product/aqua"
+      link: "/product/aqua",
+      style: "Modern",
+      subStyle: "Premium"
     },
     {
       id: "stun",
@@ -427,7 +454,9 @@ export const catalogData = {
       designer: "FurnWalk Studio",
       imgPrimary: "/Secondary/b77.jpg", 
       imgSecondary: "/Secondary/b80.jpg",
-      link: "/product/stun"
+      link: "/product/stun",
+      style: "Modern",
+      subStyle: "Premium"
     },
     {
       id: "seam",
@@ -435,7 +464,8 @@ export const catalogData = {
       designer: "FurnWalk Studio",
       imgPrimary: "/Secondary/b83.jpg", 
       imgSecondary: "/Secondary/b86.jpg",
-      link: "/product/seam"
+      link: "/product/seam",
+      style: "Luxury"
     },
     {
       id: "everest",
@@ -443,7 +473,9 @@ export const catalogData = {
       designer: "FurnWalk Studio",
       imgPrimary: "/Secondary/b90.jpg", 
       imgSecondary: "/Secondary/b93.jpg",
-      link: "/product/everest"
+      link: "/product/everest",
+      style: "Modern",
+      subStyle: "Premium"
     }
     
   ],
@@ -471,6 +503,14 @@ export const catalogData = {
       imgPrimary: "/Secondary/sb9.jpg", 
       imgSecondary: "/Secondary/sb11.jpg",
       link: "/product/lime"
+    },
+    {
+      id: "eclipse",
+      name: "Eclipse",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/sb13.jpg", 
+      imgSecondary: "/Secondary/sb15.jpg",
+      link: "/product/eclipse"
     }
   ]
 };
@@ -2106,6 +2146,34 @@ export const productsDB: Record<string, any> = {
       "/Secondary/sb10.jpg",
       "/Secondary/sb11.jpg",
       "/Secondary/sb12.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "eclipse": {
+    id: "eclipse",
+    category: "Sideboards",
+    name: "Eclipse",
+    type: "Sideboard",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/sb13.jpg",
+      "/Secondary/sb14.jpg",
+      "/Secondary/sb15.jpg",
+      "/Secondary/sb16.jpg"
     ],
     swatches: [
       { name: "Techno 2D - Yellow", hex: "#dcb935" },
