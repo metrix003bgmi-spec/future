@@ -1,16 +1,16 @@
 import './globals.css';
-// 1. Import your new fonts
-import { Inter, Playfair_Display } from 'next/font/google';
+import { Inter, Arapey } from 'next/font/google';
 
-// 2. Configure the primary text font
 const primaryFont = Inter({
   subsets: ['latin'],
   variable: '--font-primary', 
 });
 
-// 3. Configure the heading font
-const headingFont = Playfair_Display({
+// Configure Arapey with separate weight and style
+const headingFont = Arapey({
   subsets: ['latin'],
+  weight: '400', 
+  style: ['normal', 'italic'], 
   variable: '--font-heading',
 });
 
@@ -25,7 +25,6 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    // 4. Inject the new variables into the HTML tag
     <html lang="en" className={`${primaryFont.variable} ${headingFont.variable}`}>
       <body className="font-sans antialiased bg-black m-0 p-0">
         {children}
