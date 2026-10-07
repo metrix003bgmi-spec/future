@@ -1,13 +1,13 @@
 import './globals.css';
-import { Inter, Arapey } from 'next/font/google';
+import { Inter, Atkinson_Hyperlegible } from 'next/font/google';
 
 const primaryFont = Inter({
   subsets: ['latin'],
   variable: '--font-primary', 
 });
 
-// Configure Arapey with separate weight and style
-const headingFont = Arapey({
+// Configure Atkinson_Hyperlegible with separate weight and style
+const headingFont = Atkinson_Hyperlegible({
   subsets: ['latin'],
   weight: '400', 
   style: ['normal', 'italic'], 
