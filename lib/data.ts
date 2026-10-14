@@ -1,3 +1,58 @@
+// Add this to lib/data.ts
+export const menuCategories = [
+  {
+    title: "Luxury Homes",
+    links: [
+      { name: "Sofas", href: "/sofas" },
+      { name: "Beds", href: "/beds" },
+      { name: "Sideboards", href: "/sideboards" },
+      { name: "Coffee Tables", href: "/coffee-tables" },
+      { name: "Dining Table Sets", href: "/dining-table-sets" } // Your new link
+    ]
+  },
+  {
+    title: "Events",
+    links: [
+      { name: "Seating", href: "/seating" },
+      { name: "Decor", href: "/decor" },
+      { name: "Tables", href: "/tables" },
+    ]
+  },
+  {
+    title: "Offices",
+    links: [
+      { name: "Desks", href: "/desks" },
+      { name: "Office Chairs", href: "/office-chairs" },
+      { name: "Storage", href: "/storage" },
+    ]
+  },
+  {
+    title: "Hotels",
+    links: [
+      { name: "Lobby", href: "/lobby" },
+      { name: "Suites", href: "/suites" },
+      { name: "Outdoor", href: "/outdoor" },
+    ]
+  },
+  {
+    title: "Institutes",
+    links: [
+      { name: "Classroom", href: "/classroom" },
+      { name: "Library", href: "/library" },
+      { name: "Auditorium", href: "/auditorium" },
+    ]
+  }
+];
+
+// ... keep your existing catalogData and productsDB below this
+
+
+
+
+
+
+
+
 // 1. Database for the Category Listing Pages (e.g., /sofas)
 export const catalogData = {
   sofas: [
@@ -511,6 +566,395 @@ export const catalogData = {
       imgPrimary: "/Secondary/sb13.jpg", 
       imgSecondary: "/Secondary/sb15.jpg",
       link: "/product/eclipse"
+    },
+    {
+      id: "art",
+      name: "Art",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/sb17.jpg", 
+      imgSecondary: "/Secondary/sb19.jpg",
+      link: "/product/art"
+    },
+    {
+      id: "black",
+      name: "Black",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/sb21.jpg", 
+      imgSecondary: "/Secondary/sb23.jpg",
+      link: "/product/black"
+    },
+    {
+      id: "rose",
+      name: "Rose",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/sb25.jpg", 
+      imgSecondary: "/Secondary/sb27.jpg",
+      link: "/product/rose"
+    },
+    {
+      id: "moon",
+      name: "Moon",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/sb29.jpg", 
+      imgSecondary: "/Secondary/sb31.jpg",
+      link: "/product/moon"
+    },
+    {
+      id: "moth",
+      name: "Moth",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/sb33.jpg", 
+      imgSecondary: "/Secondary/sb35.jpg",
+      link: "/product/moth"
+    },
+    {
+      id: "paral",
+      name: "Paral",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/sb37.jpg", 
+      imgSecondary: "/Secondary/sb39.jpg",
+      link: "/product/paral"
+    },
+    {
+      id: "semi",
+      name: "Semi",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/sb41.jpg", 
+      imgSecondary: "/Secondary/sb43.jpg",
+      link: "/product/semi"
+    },
+    {
+      id: "royal",
+      name: "Royal",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/sb45.jpg", 
+      imgSecondary: "/Secondary/sb47.jpg",
+      link: "/product/royal"
+    },
+    {
+      id: "vince",
+      name: "Vince",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/sb49.jpg", 
+      imgSecondary: "/Secondary/sb52.jpg",
+      link: "/product/vince"
+    },
+    {
+      id: "stripe",
+      name: "Stripe",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/sb54.jpg", 
+      imgSecondary: "/Secondary/sb56.jpg",
+      link: "/product/stripe"
+    },
+    {
+      id: "buck",
+      name: "Buck",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/sb59.jpg", 
+      imgSecondary: "/Secondary/sb61.jpg",
+      link: "/product/buck"
+    }
+
+  ],
+  "coffee-tables": [
+    {
+      id: "stoneage",
+      name: "Stone Age",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/ct1.jpg", 
+      imgSecondary: "/Secondary/ct3.jpg",
+      link: "/product/stoneage"
+    },
+    {
+      id: "freestyle",
+      name: "Freestyle",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/ct5.jpg", 
+      imgSecondary: "/Secondary/ct7.jpg",
+      link: "/product/freestyle"
+    },
+    {
+      id: "circ",
+      name: "Circ",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/ct12.jpg", 
+      imgSecondary: "/Secondary/ct14.jpg",
+      link: "/product/circ"
+    },
+    {
+      id: "cube",
+      name: "Cube",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/ct19.jpg", 
+      imgSecondary: "/Secondary/ct23.jpg",
+      link: "/product/cube"
+    },
+    {
+      id: "mini",
+      name: "Mini",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/ct26.jpg", 
+      imgSecondary: "/Secondary/ct29.jpg",
+      link: "/product/mini"
+    },
+    {
+      id: "curve",
+      name: "Curve",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/ct30.jpg", 
+      imgSecondary: "/Secondary/ct34.jpg",
+      link: "/product/curve"
+    },
+    {
+      id: "trad",
+      name: "Trad",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/ct35.jpg", 
+      imgSecondary: "/Secondary/ct38.jpg",
+      link: "/product/trad"
+    },
+    {
+      id: "bunk",
+      name: "Bunk",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/ct40.jpg", 
+      imgSecondary: "/Secondary/ct44.jpg",
+      link: "/product/bunk"
+    },
+    {
+      id: "lite",
+      name: "Lite",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/ct45.jpg", 
+      imgSecondary: "/Secondary/ct48.jpg",
+      link: "/product/lite"
+    },
+    {
+      id: "cent",
+      name: "Cent",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/ct50.jpg", 
+      imgSecondary: "/Secondary/ct52.jpg",
+      link: "/product/cent"
+    },
+    {
+      id: "gtop",
+      name: "Gtop",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/ct54.jpg", 
+      imgSecondary: "/Secondary/ct58.jpg",
+      link: "/product/gtop"
+    },
+    {
+      id: "cyle",
+      name: "Cyle",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/ct60.jpg", 
+      imgSecondary: "/Secondary/ct65.jpg",
+      link: "/product/cyle"
+    },
+    {
+      id: "tenta",
+      name: "Tenta",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/ct68.jpg", 
+      imgSecondary: "/Secondary/ct71.jpg",
+      link: "/product/tenta"
+    },
+    {
+      id: "cera",
+      name: "Cera",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/ct73.jpg", 
+      imgSecondary: "/Secondary/ct79.jpg",
+      link: "/product/cera"
+    },
+    {
+      id: "metall",
+      name: "Metall",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/ct81.jpg", 
+      imgSecondary: "/Secondary/ct84.jpg",
+      link: "/product/metall"
+    },
+    {
+      id: "outwood",
+      name: "Outwood",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/ct88.jpg", 
+      imgSecondary: "/Secondary/ct93.jpg",
+      link: "/product/outwood"
+    },
+    {
+      id: "cglass",
+      name: "Cglass",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/ct96.jpg", 
+      imgSecondary: "/Secondary/ct98.jpg",
+      link: "/product/cglass"
+    },
+    {
+      id: "concave",
+      name: "Concave",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/ct102.jpg", 
+      imgSecondary: "/Secondary/ct105.jpg",
+      link: "/product/concave"
+    },
+    {
+      id: "rods",
+      name: "Rods",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/ct109.jpg", 
+      imgSecondary: "/Secondary/ct114.jpg",
+      link: "/product/rods"
+    },
+    {
+      id: "silva",
+      name: "Silva",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/ct116.jpg", 
+      imgSecondary: "/Secondary/ct119.jpg",
+      link: "/product/silva"
+    },
+    {
+      id: "ikaga",
+      name: "Ikaga",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/ct122.jpg", 
+      imgSecondary: "/Secondary/ct127.jpg",
+      link: "/product/ikaga"
+    },
+    {
+      id: "toppat",
+      name: "Toppat",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/ct130.jpg", 
+      imgSecondary: "/Secondary/ct133.jpg",
+      link: "/product/toppat"
+    },
+    {
+      id: "conno",
+      name: "Conno",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/ct134.jpg", 
+      imgSecondary: "/Secondary/ct138.jpg",
+      link: "/product/conno"
+    },
+    {
+      id: "lowy",
+      name: "Lowy",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/ct141.jpg", 
+      imgSecondary: "/Secondary/ct144.jpg",
+      link: "/product/lowy"
+    },
+    {
+      id: "duel",
+      name: "Duel",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/ct146.jpg", 
+      imgSecondary: "/Secondary/ct149.jpg",
+      link: "/product/duel"
+    },
+    {
+      id: "sidel",
+      name: "Sidel",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/ct154.jpg", 
+      imgSecondary: "/Secondary/ct157.jpg",
+      link: "/product/sidel"
+    },
+    {
+      id: "cutt",
+      name: "Cutt",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/ct161.jpg", 
+      imgSecondary: "/Secondary/ct164.jpg",
+      link: "/product/cutt"
+    },
+    {
+      id: "mable",
+      name: "Mable",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/ct168.jpg", 
+      imgSecondary: "/Secondary/ct172.jpg",
+      link: "/product/mable"
+    },
+    {
+      id: "pie",
+      name: "Pie",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/ct174.jpg", 
+      imgSecondary: "/Secondary/ct180.jpg",
+      link: "/product/pie"
+    },
+    {
+      id: "boon",
+      name: "Boon",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/ct181.jpg", 
+      imgSecondary: "/Secondary/ct186.jpg",
+      link: "/product/boon"
+    },
+    {
+      id: "alge",
+      name: "Alge",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/ct188.jpg", 
+      imgSecondary: "/Secondary/ct191.jpg",
+      link: "/product/alge"
+    },
+    {
+      id: "red",
+      name: "Red",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/ct195.jpg", 
+      imgSecondary: "/Secondary/ct198.jpg",
+      link: "/product/red"
+    },
+    {
+      id: "rose",
+      name: "Rose",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/ct201.jpg", 
+      imgSecondary: "/Secondary/ct204.jpg",
+      link: "/product/rose"
+    },
+    {
+      id: "boxy",
+      name: "Boxy",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/ct207.jpg", 
+      imgSecondary: "/Secondary/ct210.jpg",
+      link: "/product/boxy"
+    },
+    {
+      id: "vtop",
+      name: "Vtop",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/ct214.jpg", 
+      imgSecondary: "/Secondary/ct217.jpg",
+      link: "/product/vtop"
+    },
+    {
+      id: "eek",
+      name: "Eek",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/ct221.jpg", 
+      imgSecondary: "/Secondary/ct224.jpg",
+      link: "/product/eek"
+    }
+  ],
+  "dining-table-sets": [
+    {
+      id: "dining-alpha",
+      name: "Dining Alpha",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/dt1.jpg",
+      imgSecondary: "/Secondary/dt2.jpg",
+      link: "/product/dining-alpha"
     }
   ]
 };
@@ -2174,6 +2618,375 @@ export const productsDB: Record<string, any> = {
       "/Secondary/sb14.jpg",
       "/Secondary/sb15.jpg",
       "/Secondary/sb16.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "art": {
+    id: "art",
+    category: "Sideboards",
+    name: "Art",
+    type: "Sideboard",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/sb17.jpg",
+      "/Secondary/sb18.jpg",
+      "/Secondary/sb19.jpg",
+      "/Secondary/sb20.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "black": {
+    id: "black",
+    category: "Sideboards",
+    name: "Black",
+    type: "Sideboard",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/sb21.jpg",
+      "/Secondary/sb22.jpg",
+      "/Secondary/sb23.jpg",
+      "/Secondary/sb24.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "rose": {
+    id: "rose",
+    category: "Sideboards",
+    name: "Rose",
+    type: "Sideboard",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/sb25.jpg",
+      "/Secondary/sb26.jpg",
+      "/Secondary/sb27.jpg",
+      "/Secondary/sb28.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "moon": {
+    id: "moon",
+    category: "Sideboards",
+    name: "Moon",
+    type: "Sideboard",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/sb29.jpg",
+      "/Secondary/sb30.jpg",
+      "/Secondary/sb31.jpg",
+      "/Secondary/sb32.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "moth": {
+    id: "moth",
+    category: "Sideboards",
+    name: "Moth",
+    type: "Sideboard",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/sb33.jpg",
+      "/Secondary/sb34.jpg",
+      "/Secondary/sb35.jpg",
+      "/Secondary/sb36.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "paral": {
+    id: "paral",
+    category: "Sideboards",
+    name: "Paral",
+    type: "Sideboard",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/sb37.jpg",
+      "/Secondary/sb38.jpg",
+      "/Secondary/sb39.jpg",
+      "/Secondary/sb40.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "semi": {
+    id: "semi",
+    category: "Sideboards",
+    name: "Semi",
+    type: "Sideboard",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/sb41.jpg",
+      "/Secondary/sb42.jpg",
+      "/Secondary/sb43.jpg",
+      "/Secondary/sb44.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "royal": {
+    id: "royal",
+    category: "Sideboards",
+    name: "Royal",
+    type: "Sideboard",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/sb45.jpg",
+      "/Secondary/sb46.jpg",
+      "/Secondary/sb47.jpg",
+      "/Secondary/sb48.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "vince": {
+    id: "vince",
+    category: "Sideboards",
+    name: "Vince",
+    type: "Sideboard",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/sb49.jpg",
+      "/Secondary/sb50.jpg",
+      "/Secondary/sb51.jpg",
+      "/Secondary/sb52.jpg",
+      "/Secondary/sb53.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "stripe": {
+    id: "stripe",
+    category: "Sideboards",
+    name: "Stripe",
+    type: "Sideboard",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/sb54.jpg",
+      "/Secondary/sb55.jpg",
+      "/Secondary/sb56.jpg",
+      "/Secondary/sb57.jpg",
+      "/Secondary/sb58.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "buck": {
+    id: "buck",
+    category: "Sideboards",
+    name: "Buck",
+    type: "Sideboard",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/sb59.jpg",
+      "/Secondary/sb60.jpg",
+      "/Secondary/sb61.jpg",
+      "/Secondary/sb62.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+
+  "stoneage": {
+    id: "stoneage",
+    category: "Coffee Tables",
+    name: "Stone Age",
+    type: "Coffee Table",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/ct1.jpg",
+      "/Secondary/ct2.jpg",
+      "/Secondary/ct3.jpg",
+      "/Secondary/ct4.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "freestyle": {
+    id: "freestyle",
+    category: "Coffee Tables",
+    name: "Freestyle",
+    type: "Coffee Table",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/ct5.jpg",
+      "/Secondary/ct6.jpg",
+      "/Secondary/ct7.jpg",
+      "/Secondary/ct8.jpg",
+      "/Secondary/ct9.jpg",
+      "/Secondary/ct10.jpg"
     ],
     swatches: [
       { name: "Techno 2D - Yellow", hex: "#dcb935" },

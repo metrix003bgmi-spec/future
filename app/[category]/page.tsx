@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
 import { catalogData } from '@/lib/data'; 
 import CategoryHeader from '@/components/CategoryHeader';
-import ProductGrid from '@/components/ProductGrid'; // Import your new component
+import ProductGrid from '@/components/ProductGrid';
 
 interface PageProps {
   params: Promise<{
@@ -14,6 +14,9 @@ export default async function CategoryPage({ params }: PageProps) {
   const categoryKey = resolvedParams.category.toLowerCase() as keyof typeof catalogData;
   const products = catalogData[categoryKey];
 
+  // Replace any hyphens in the URL with spaces for the visual title
+  const displayTitle = resolvedParams.category.replace(/-/g, ' ');
+
   if (!products) {
     notFound();
   }
@@ -23,11 +26,11 @@ export default async function CategoryPage({ params }: PageProps) {
       <CategoryHeader />
 
       <section className="max-w-[1600px] mx-auto px-6 py-12 flex flex-col items-center">
+        {/* Use the new displayTitle variable here */}
         <h2 className="font-lato text-4xl md:text-5xl font-light tracking-wide uppercase mb-8">
-          {resolvedParams.category}
+          {displayTitle}
         </h2>
         
-        {/* Replace the old filters and grid with the new interactive component */}
         <ProductGrid products={products} />
         
       </section>

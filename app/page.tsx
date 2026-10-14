@@ -6,6 +6,8 @@ import {
   FaBars, FaSearch, FaMapMarkerAlt, FaUser, FaTimes, 
   FaChevronDown, FaChevronRight, FaPlay, FaPause 
 } from 'react-icons/fa';
+// 1. Import the centralized menu array
+import { menuCategories } from '@/lib/data';
 
 // --- Reusable Video Section Component ---
 const VideoSection = ({ src, poster, title, designer }: { src: string, poster: string, title: string, designer: string }) => {
@@ -89,49 +91,7 @@ export default function Home() {
   // Replaces the old `isSpacesOpen` state
 const [openCategory, setOpenCategory] = useState<string | null>(null);
 
-// The new nested menu structure
-const menuCategories = [
-  {
-    title: "Luxury Homes",
-    links: [
-      { name: "Sofas", href: "/sofas" },
-      { name: "Beds", href: "/beds" },
-      { name: "Sideboards", href: "/sideboards" },
-    ]
-  },
-  {
-    title: "Events",
-    links: [
-      { name: "Seating", href: "/seating" },
-      { name: "Decor", href: "/decor" },
-      { name: "Tables", href: "/tables" },
-    ]
-  },
-  {
-    title: "Offices",
-    links: [
-      { name: "Desks", href: "/desks" },
-      { name: "Office Chairs", href: "/office-chairs" },
-      { name: "Storage", href: "/storage" },
-    ]
-  },
-  {
-    title: "Hotels",
-    links: [
-      { name: "Lobby", href: "/lobby" },
-      { name: "Suites", href: "/suites" },
-      { name: "Outdoor", href: "/outdoor" },
-    ]
-  },
-  {
-    title: "Institutes",
-    links: [
-      { name: "Classroom", href: "/classroom" },
-      { name: "Library", href: "/library" },
-      { name: "Auditorium", href: "/auditorium" },
-    ]
-  }
-];
+
 
 const toggleCategory = (title: string) => {
   setOpenCategory(openCategory === title ? null : title);
