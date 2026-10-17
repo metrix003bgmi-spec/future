@@ -957,12 +957,12 @@ export const catalogData = {
       link: "/product/alpha"
     },
     {
-      id: "aqua",
-      name: "Aqua",
+      id: "buu",
+      name: "Buu",
       designer: "FurnWalk Studio",
       imgPrimary: "/Secondary/dt12.jpg",
       imgSecondary: "/Secondary/dt16.jpg",
-      link: "/product/aqua"
+      link: "/product/buu"
     },
     {
       id: "resine",
@@ -1011,6 +1011,30 @@ export const catalogData = {
       imgPrimary: "/Secondary/dt75.jpg",
       imgSecondary: "/Secondary/dt79.jpg",
       link: "/product/cueff"
+    },
+    {
+      id: "curgo",
+      name: "Curgo",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/dt82.jpg",
+      imgSecondary: "/Secondary/dt88.jpg",
+      link: "/product/curgo"
+    },
+    {
+      id: "disc",
+      name: "Disc",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/dt93.jpg",
+      imgSecondary: "/Secondary/dt98.jpg",
+      link: "/product/disc"
+    },
+    {
+      id: "knight",
+      name: "Knight",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/dt104.jpg",
+      imgSecondary: "/Secondary/dt113.jpg",
+      link: "/product/knight"
     }
   ]
 };
@@ -3043,6 +3067,386 @@ export const productsDB: Record<string, any> = {
       "/Secondary/ct8.jpg",
       "/Secondary/ct9.jpg",
       "/Secondary/ct10.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+
+
+  "alpha": {
+    id: "alpha",
+    category: "Dining Tables",
+    name: "Alpha",
+    type: "Dining Table",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/dt1.jpg",
+      "/Secondary/dt2.jpg",
+      "/Secondary/dt3.jpg",
+      "/Secondary/dt4.jpg",
+      "/Secondary/dt5.jpg",
+      "/Secondary/dt6.jpg",
+      "/Secondary/dt7.jpg",
+      "/Secondary/dt8.jpg",
+      "/Secondary/dt9.jpg",
+      "/Secondary/dt10.jpg",
+      "/Secondary/dt11.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "buu": {
+    id: "buu",
+    category: "Dining Tables",
+    name: "Buu",
+    type: "Dining Table",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/dt12.jpg",
+      "/Secondary/dt13.jpg",
+      "/Secondary/dt14.jpg",
+      "/Secondary/dt15.jpg",
+      "/Secondary/dt16.jpg",
+      "/Secondary/dt17.jpg",
+      "/Secondary/dt18.jpg",
+      "/Secondary/dt19.jpg",
+      "/Secondary/dt20.jpg",
+      "/Secondary/dt21.jpg",
+      "/Secondary/dt22.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "resine": {
+    id: "resine",
+    category: "Dining Tables",
+    name: "Resine",
+    type: "Dining Table",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/dt23.jpg",
+      "/Secondary/dt24.jpg",
+      "/Secondary/dt25.jpg",
+      "/Secondary/dt26.jpg",
+      "/Secondary/dt27.jpg",
+      "/Secondary/dt28.jpg",
+      "/Secondary/dt29.jpg",
+      "/Secondary/dt30.jpg",
+      "/Secondary/dt31.jpg",
+      "/Secondary/dt32.jpg",
+      "/Secondary/dt33.jpg",
+      "/Secondary/dt34.jpg",
+      "/Secondary/dt35.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "holwind": {
+    id: "holwind",
+    category: "Dining Tables",
+    name: "Holwind",
+    type: "Dining Table",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/dt36.jpg",
+      "/Secondary/dt37.jpg",
+      "/Secondary/dt38.jpg",
+      "/Secondary/dt39.jpg",
+      "/Secondary/dt40.jpg",
+      "/Secondary/dt41.jpg",
+      "/Secondary/dt42.jpg",
+      "/Secondary/dt43.jpg",
+      "/Secondary/dt44.jpg",
+      "/Secondary/dt45.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "golace": {
+    id: "golace",
+    category: "Dining Tables",
+    name: "Golace",
+    type: "Dining Table",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/dt46.jpg",
+      "/Secondary/dt47.jpg",
+      "/Secondary/dt48.jpg",
+      "/Secondary/dt49.jpg",
+      "/Secondary/dt50.jpg",
+      "/Secondary/dt51.jpg",
+      "/Secondary/dt52.jpg",
+      "/Secondary/dt53.jpg",
+      "/Secondary/dt54.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "slice": {
+    id: "slice",
+    category: "Dining Tables",
+    name: "Slice",
+    type: "Dining Table",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/dt55.jpg",
+      "/Secondary/dt56.jpg",
+      "/Secondary/dt57.jpg",
+      "/Secondary/dt58.jpg",
+      "/Secondary/dt59.jpg",
+      "/Secondary/dt60.jpg",
+      "/Secondary/dt61.jpg",
+      "/Secondary/dt62.jpg",
+      "/Secondary/dt63.jpg",
+      "/Secondary/dt64.jpg",
+      "/Secondary/dt65.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "golpat": {
+    id: "golpat",
+    category: "Dining Tables",
+    name: "Golpat",
+    type: "Dining Table",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/dt66.jpg",
+      "/Secondary/dt67.jpg",
+      "/Secondary/dt68.jpg",
+      "/Secondary/dt69.jpg",
+      "/Secondary/dt70.jpg",
+      "/Secondary/dt71.jpg",
+      "/Secondary/dt72.jpg",
+      "/Secondary/dt73.jpg",
+      "/Secondary/dt74.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "cueff": {
+    id: "cueff",
+    category: "Dining Tables",
+    name: "Cueff",
+    type: "Dining Table",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/dt75.jpg",
+      "/Secondary/dt76.jpg",
+      "/Secondary/dt77.jpg",
+      "/Secondary/dt78.jpg",
+      "/Secondary/dt79.jpg",
+      "/Secondary/dt80.jpg",
+      "/Secondary/dt81.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "curgo": {
+    id: "curgo",
+    category: "Dining Tables",
+    name: "Curgo",
+    type: "Dining Table",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/dt82.jpg",
+      "/Secondary/dt83.jpg",
+      "/Secondary/dt84.jpg",
+      "/Secondary/dt85.jpg",
+      "/Secondary/dt86.jpg",
+      "/Secondary/dt87.jpg",
+      "/Secondary/dt88.jpg",
+      "/Secondary/dt89.jpg",
+      "/Secondary/dt90.jpg",
+      "/Secondary/dt91.jpg",
+      "/Secondary/dt92.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "disc": {
+    id: "disc",
+    category: "Dining Tables",
+    name: "Disc",
+    type: "Dining Table",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/dt93.jpg",
+      "/Secondary/dt94.jpg",
+      "/Secondary/dt95.jpg",
+      "/Secondary/dt96.jpg",
+      "/Secondary/dt97.jpg",
+      "/Secondary/dt98.jpg",
+      "/Secondary/dt99.jpg",
+      "/Secondary/dt100.jpg",
+      "/Secondary/dt101.jpg",
+      "/Secondary/dt102.jpg",
+      "/Secondary/dt103.jpg"
+    ],
+    swatches: [
+      { name: "Techno 2D - Yellow", hex: "#dcb935" },
+      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
+      { name: "Techno 4D - Graphite", hex: "#525252" }
+    ],
+    dimensions: {
+      metric: "W. 238 x H. 80 x D. 113 cm",
+      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
+      list: [
+        "Width: 238 cm (93.7\")",
+        "Height: 80 cm (31.5\")",
+        "Depth: 113 cm (44.5\")"
+      ]
+    },
+    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+  },
+  "knight": {
+    id: "knight",
+    category: "Dining Tables",
+    name: "Knight",
+    type: "Dining Table",
+    designer: "Sacha Lakic",
+    images: [
+      "/Secondary/dt104.jpg",
+      "/Secondary/dt105.jpg",
+      "/Secondary/dt106.jpg",
+      "/Secondary/dt107.jpg",
+      "/Secondary/dt108.jpg",
+      "/Secondary/dt109.jpg",
+      "/Secondary/dt110.jpg",
+      "/Secondary/dt111.jpg",
+      "/Secondary/dt112.jpg",
+      "/Secondary/dt113.jpg",
+      "/Secondary/dt114.jpg"
     ],
     swatches: [
       { name: "Techno 2D - Yellow", hex: "#dcb935" },
