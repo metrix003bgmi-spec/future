@@ -949,68 +949,68 @@ export const catalogData = {
   ],
   "dining-table-sets": [
     {
-      id: "dining-alpha",
-      name: "Dining Alpha",
+      id: "alpha",
+      name: "Alpha",
       designer: "FurnWalk Studio",
       imgPrimary: "/Secondary/dt1.jpg",
       imgSecondary: "/Secondary/dt5.jpg",
-      link: "/product/dining-alpha"
+      link: "/product/alpha"
     },
     {
-      id: "dining-alpha",
-      name: "Dining Alpha",
+      id: "aqua",
+      name: "Aqua",
       designer: "FurnWalk Studio",
       imgPrimary: "/Secondary/dt12.jpg",
       imgSecondary: "/Secondary/dt16.jpg",
-      link: "/product/dining-alpha"
+      link: "/product/aqua"
     },
     {
-      id: "dining-alpha",
-      name: "Dining Alpha",
+      id: "resine",
+      name: "Resine",
       designer: "FurnWalk Studio",
       imgPrimary: "/Secondary/dt23.jpg",
       imgSecondary: "/Secondary/dt28.jpg",
-      link: "/product/dining-alpha"
+      link: "/product/resine"
     },
     {
-      id: "dining-alpha",
-      name: "Dining Alpha",
+      id: "holwind",
+      name: "Holwind",
       designer: "FurnWalk Studio",
       imgPrimary: "/Secondary/dt36.jpg",
       imgSecondary: "/Secondary/dt40.jpg",
-      link: "/product/dining-alpha"
+      link: "/product/holwind"
     },
     {
-      id: "dining-alpha",
-      name: "Dining Alpha",
+      id: "golace",
+      name: "Golace",
       designer: "FurnWalk Studio",
       imgPrimary: "/Secondary/dt46.jpg",
       imgSecondary: "/Secondary/dt49.jpg",
-      link: "/product/dining-alpha"
+      link: "/product/golace"
     },
     {
-      id: "dining-alpha",
-      name: "Dining Alpha",
+      id: "slice",
+      name: "Slice",
       designer: "FurnWalk Studio",
       imgPrimary: "/Secondary/dt55.jpg",
       imgSecondary: "/Secondary/dt60.jpg",
-      link: "/product/dining-alpha"
+      link: "/product/slice"
     },
     {
-      id: "dining-alpha",
-      name: "Dining Alpha",
+      id: "golpat",
+      name: "Golpat",
       designer: "FurnWalk Studio",
       imgPrimary: "/Secondary/dt66.jpg",
       imgSecondary: "/Secondary/dt70.jpg",
-      link: "/product/dining-alpha"
+      link: "/product/golpat"
     },
     {
-      id: "dining-alpha",
-      name: "Dining Alpha",
+      id: "cueff",
+      name: "Cueff",
       designer: "FurnWalk Studio",
       imgPrimary: "/Secondary/dt75.jpg",
       imgSecondary: "/Secondary/dt79.jpg",
-      link: "/product/dining-alpha"
+      link: "/product/cueff"
     }
   ]
 };
