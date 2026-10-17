@@ -183,7 +183,7 @@ const toggleCategory = (title: string) => {
         className="h-screen overflow-y-scroll snap-y snap-mandatory scroll-smooth no-scrollbar"
       >
         <VideoSection 
-          src="/homepage/homepage.mp4"
+          src="/homepage/ip.mp4"
           poster="https://embed-ssl.wistia.com/deliveries/a1c0f3aff7674a95974c12e5236667e81c5d783f.jpg?image_crop_resized=1920x1080"
           title="Conversation"
           designer="Philippe Bouix"
