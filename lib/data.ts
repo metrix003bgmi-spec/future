@@ -953,7 +953,63 @@ export const catalogData = {
       name: "Dining Alpha",
       designer: "FurnWalk Studio",
       imgPrimary: "/Secondary/dt1.jpg",
-      imgSecondary: "/Secondary/dt2.jpg",
+      imgSecondary: "/Secondary/dt5.jpg",
+      link: "/product/dining-alpha"
+    },
+    {
+      id: "dining-alpha",
+      name: "Dining Alpha",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/dt12.jpg",
+      imgSecondary: "/Secondary/dt16.jpg",
+      link: "/product/dining-alpha"
+    },
+    {
+      id: "dining-alpha",
+      name: "Dining Alpha",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/dt23.jpg",
+      imgSecondary: "/Secondary/dt28.jpg",
+      link: "/product/dining-alpha"
+    },
+    {
+      id: "dining-alpha",
+      name: "Dining Alpha",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/dt36.jpg",
+      imgSecondary: "/Secondary/dt40.jpg",
+      link: "/product/dining-alpha"
+    },
+    {
+      id: "dining-alpha",
+      name: "Dining Alpha",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/dt46.jpg",
+      imgSecondary: "/Secondary/dt49.jpg",
+      link: "/product/dining-alpha"
+    },
+    {
+      id: "dining-alpha",
+      name: "Dining Alpha",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/dt55.jpg",
+      imgSecondary: "/Secondary/dt60.jpg",
+      link: "/product/dining-alpha"
+    },
+    {
+      id: "dining-alpha",
+      name: "Dining Alpha",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/dt66.jpg",
+      imgSecondary: "/Secondary/dt70.jpg",
+      link: "/product/dining-alpha"
+    },
+    {
+      id: "dining-alpha",
+      name: "Dining Alpha",
+      designer: "FurnWalk Studio",
+      imgPrimary: "/Secondary/dt75.jpg",
+      imgSecondary: "/Secondary/dt79.jpg",
       link: "/product/dining-alpha"
     }
   ]
