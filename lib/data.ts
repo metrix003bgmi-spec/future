@@ -3454,11 +3454,11 @@ export const productsDB: Record<string, any> = {
       { name: "Techno 4D - Graphite", hex: "#525252" }
     ],
     dimensions: {
-      metric: "W. 238 x H. 80 x D. 113 cm",
+      metric: "W. 233 x H. 80 x D. 113 cm",
       imperial: "93.7\"w x 31.5\"h x 44.5\"d",
       list: [
-        "Width: 238 cm (93.7\")",
-        "Height: 80 cm (31.5\")",
+        "Width: 233 cm (93.7\")",
+        "Height: 80 cm (31.5\")",  
         "Depth: 113 cm (44.5\")"
       ]
     },

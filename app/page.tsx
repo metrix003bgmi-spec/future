@@ -183,7 +183,7 @@ const toggleCategory = (title: string) => {
         className="h-screen overflow-y-scroll snap-y snap-mandatory scroll-smooth no-scrollbar"
       >
         <VideoSection 
-          src="/homepage/ip.mp4"
+          src="/homepage/hp.mp4"
           poster="https://embed-ssl.wistia.com/deliveries/a1c0f3aff7674a95974c12e5236667e81c5d783f.jpg?image_crop_resized=1920x1080"
           title="Conversation"
           designer="Philippe Bouix"
@@ -205,7 +205,7 @@ const toggleCategory = (title: string) => {
             </a>
           </div>
         </section> */}
-        <VideoSection 
+        {/* <VideoSection 
           src="/homepage/dt.mp4"
           poster="https://embed-ssl.wistia.com/deliveries/a1c0f3aff7674a95974c12e5236667e81c5d783f.jpg?image_crop_resized=1920x1080"
           title="Conversation"
@@ -231,7 +231,7 @@ const toggleCategory = (title: string) => {
           poster="https://embed-ssl.wistia.com/deliveries/5d542119ab7ed5f14a41c0795b0f188f526f5bff.jpg?image_crop_resized=1920x1080"
           title="Mah Jong"
           designer="Hans Hopfer"
-        />
+        /> */}
       </main>
     </div>
   );
