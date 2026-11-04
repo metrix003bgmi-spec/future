@@ -205,33 +205,33 @@ const toggleCategory = (title: string) => {
             </a>
           </div>
         </section> */}
-        {/* <VideoSection 
-          src="/homepage/dt.mp4"
+        <VideoSection 
+          src="/homepage/qww.mp4"
           poster="https://embed-ssl.wistia.com/deliveries/a1c0f3aff7674a95974c12e5236667e81c5d783f.jpg?image_crop_resized=1920x1080"
           title="Conversation"
           designer="Philippe Bouix"
         />
 
         <VideoSection 
-          src="https://embed-ssl.wistia.com/deliveries/04387e5d15ff005f4a21c26d0182fb1d6234d914.m3u8"
+          src="/homepage/office.mp4"
           poster="https://embed-ssl.wistia.com/deliveries/de477b65423e24b35931ed56d5f39480b1490c7d.jpg?image_crop_resized=1920x1080"
           title="Script"
           designer="Sacha Lakic"
         />
 
         <VideoSection 
-          src="https://embed-ssl.wistia.com/deliveries/75498f90a21bc1b3ecda8af2d079da0b9e115bb6.m3u8"
+          src="/homepage/fab.mp4"
           poster="https://embed-ssl.wistia.com/deliveries/d563caab16abbb8af8ac2bea337b8681da38e3b3.jpg?image_crop_resized=1920x1080"
           title="Bubble"
           designer="Sacha Lakic"
         />
 
         <VideoSection 
-          src="https://embed-ssl.wistia.com/deliveries/9988aa4d54c9e77f133cf390efa3ce31ce6ad7f5.m3u8"
+          src="/homepage/tea.mp4"
           poster="https://embed-ssl.wistia.com/deliveries/5d542119ab7ed5f14a41c0795b0f188f526f5bff.jpg?image_crop_resized=1920x1080"
           title="Mah Jong"
           designer="Hans Hopfer"
-        /> */}
+        />
       </main>
     </div>
   );
