@@ -183,7 +183,7 @@ const toggleCategory = (title: string) => {
         className="h-screen overflow-y-scroll snap-y snap-mandatory scroll-smooth no-scrollbar"
       >
         <VideoSection 
-          src="/homepage/qww.mp4"
+          src="https://res.cloudinary.com/ltzf6tj4/video/upload/v1793885764/qopt.mp4"
           poster="https://embed-ssl.wistia.com/deliveries/a1c0f3aff7674a95974c12e5236667e81c5d783f.jpg?image_crop_resized=1920x1080"
           title="Conversation"
           designer="Philippe Bouix"
@@ -206,28 +206,28 @@ const toggleCategory = (title: string) => {
           </div>
         </section> */}
         <VideoSection 
-          src="/homepage/bear.mp4"
+          src="https://res.cloudinary.com/ltzf6tj4/video/upload/v1793885746/bearopt.mp4"
           poster="https://embed-ssl.wistia.com/deliveries/a1c0f3aff7674a95974c12e5236667e81c5d783f.jpg?image_crop_resized=1920x1080"
           title="Conversation"
           designer="Philippe Bouix"
         />
 
         <VideoSection 
-          src="/homepage/office.mp4"
+          src="https://res.cloudinary.com/ltzf6tj4/video/upload/v1793885758/offopt.mp4"
           poster="https://embed-ssl.wistia.com/deliveries/de477b65423e24b35931ed56d5f39480b1490c7d.jpg?image_crop_resized=1920x1080"
           title="Script"
           designer="Sacha Lakic"
         />
 
         <VideoSection 
-          src="/homepage/fab.mp4"
+          src="https://res.cloudinary.com/ltzf6tj4/video/upload/v1793885753/fabopt.mp4"
           poster="https://embed-ssl.wistia.com/deliveries/d563caab16abbb8af8ac2bea337b8681da38e3b3.jpg?image_crop_resized=1920x1080"
           title="Bubble"
           designer="Sacha Lakic"
         />
 
         <VideoSection 
-          src="/homepage/tea.mp4"
+          src="https://res.cloudinary.com/ltzf6tj4/video/upload/v1793885770/teaopt.mp4"
           poster="https://embed-ssl.wistia.com/deliveries/5d542119ab7ed5f14a41c0795b0f188f526f5bff.jpg?image_crop_resized=1920x1080"
           title="Mah Jong"
           designer="Hans Hopfer"
