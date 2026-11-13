@@ -6,7 +6,13 @@ import { FaRulerCombined, FaMapMarkerAlt, FaPlus, FaMinus, FaCheck } from 'react
 
 export default function ProductDetailClient({ product }: { product: any }) {
   const [activeImg, setActiveImg] = useState(product.images[0]);
-  const [activeSwatch, setActiveSwatch] = useState(product.swatches[0]);
+  
+  // State for Upholstery
+  const [activeSwatch, setActiveSwatch] = useState(product.swatches?.[0] || null);
+  
+  // State for Material / Finish (Veneer, Brass, etc.)
+  const [activeMaterial, setActiveMaterial] = useState(product.materials?.[0] || null);
+  
   const [openAccordion, setOpenAccordion] = useState<string | null>(null);
 
   const toggleAccordion = (section: string) => {
@@ -19,7 +25,9 @@ export default function ProductDetailClient({ product }: { product: any }) {
       <nav className="text-xs uppercase tracking-widest text-gray-400 font-semibold flex gap-2 py-4 mb-4">
         <Link href="/" className="hover:text-black transition">Home</Link>
         <span>/</span>
-        <Link href={`/${product.category.toLowerCase()}`} className="hover:text-black transition">{product.category}</Link>
+        <Link href={`/${product.category.toLowerCase().replace(/\s+/g, '-')}`} className="hover:text-black transition">
+          {product.category}
+        </Link>
         <span>/</span>
         <span className="text-black">{product.name}</span>
       </nav>
@@ -32,7 +40,7 @@ export default function ProductDetailClient({ product }: { product: any }) {
             <img 
               src={activeImg} 
               alt={product.name} 
-              className="w-full h-full object-cover transition-opacity duration-300"
+              className="w-full h-full object-contain mix-blend-multiply p-4 transition-opacity duration-300"
             />
             <div className="absolute inset-0 bg-black/5 opacity-0 group-hover:opacity-100 transition duration-300"></div>
           </div>
@@ -42,9 +50,11 @@ export default function ProductDetailClient({ product }: { product: any }) {
               <button 
                 key={idx}
                 onClick={() => setActiveImg(img)}
-                className={`flex-shrink-0 w-24 h-24 border-2 transition overflow-hidden ${activeImg === img ? 'border-black' : 'border-transparent hover:border-gray-300'}`}
+                className={`flex-shrink-0 w-24 h-24 border-2 transition overflow-hidden bg-[#f4f4f4] ${
+                  activeImg === img ? 'border-black' : 'border-transparent hover:border-gray-300'
+                }`}
               >
-                <img src={img} className="w-full h-full object-cover" alt={`Thumbnail ${idx + 1}`} />
+                <img src={img} className="w-full h-full object-contain mix-blend-multiply p-1" alt={`Thumbnail ${idx + 1}`} />
               </button>
             ))}
           </div>
@@ -58,32 +68,76 @@ export default function ProductDetailClient({ product }: { product: any }) {
             <h3 className="text-lg uppercase tracking-widest text-gray-500 font-semibold mb-4">{product.type}</h3>
             <p className="font-sans text-sm text-[#656565] mb-8">designed by {product.designer}</p>
 
-            {/* Swatches */}
-            <div className="mb-8">
-              <div className="flex justify-between items-center mb-4">
-                <span className="text-xs uppercase tracking-widest font-semibold">
-                  Upholstery: <span className="text-gray-500 font-normal">{activeSwatch.name}</span>
-                </span>
-                <button className="text-xs underline text-gray-500 hover:text-black transition">View all</button>
+            {/* 1. Upholstery Swatches */}
+            {product.swatches && product.swatches.length > 0 && (
+              <div className="mb-6">
+                <div className="flex justify-between items-center mb-3">
+                  <span className="text-xs uppercase tracking-widest font-semibold">
+                    Upholstery: <span className="text-gray-500 font-normal">{activeSwatch?.name}</span>
+                  </span>
+                </div>
+                
+                <div className="flex flex-wrap gap-3">
+                  {product.swatches.map((swatch: any, idx: number) => {
+                    const isActive = activeSwatch?.name === swatch.name;
+                    return (
+                      <button 
+                        key={idx}
+                        onClick={() => {
+                          setActiveSwatch(swatch);
+                          if (swatch.image) setActiveImg(swatch.image);
+                        }}
+                        title={swatch.name}
+                        className={`relative flex items-center justify-center w-9 h-9 rounded-full border border-gray-300 ring-offset-2 transition focus:outline-none ${
+                          isActive ? 'ring-2 ring-black' : 'hover:ring-2 hover:ring-gray-300'
+                        }`}
+                        style={{ backgroundColor: swatch.hex }}
+                      >
+                        {isActive && <FaCheck className="text-white text-[10px] drop-shadow-md" />}
+                      </button>
+                    );
+                  })}
+                </div>
               </div>
-              
-              <div className="flex flex-wrap gap-3">
-                {product.swatches.map((swatch: any, idx: number) => {
-                  const isActive = activeSwatch.name === swatch.name;
-                  return (
-                    <button 
-                      key={idx}
-                      onClick={() => setActiveSwatch(swatch)}
-                      className={`relative flex items-center justify-center w-10 h-10 rounded-full border border-gray-300 ring-offset-2 transition focus:outline-none ${isActive ? 'ring-2 ring-black' : 'hover:ring-2 hover:ring-gray-300'}`}
-                      style={{ backgroundColor: swatch.hex }}
-                    >
-                      {/* React Native Checkmark replaces custom CSS pseudo-element */}
-                      {isActive && <FaCheck className="text-white text-[10px] drop-shadow-md" />}
-                    </button>
-                  );
-                })}
+            )}
+
+            {/* 2. Material / Finish Swatches (Veneer, Brass, etc.) */}
+            {product.materials && product.materials.length > 0 && (
+              <div className="mb-8 pt-5 border-t border-gray-100">
+                <div className="flex justify-between items-center mb-3">
+                  <span className="text-xs uppercase tracking-widest font-semibold">
+                    Finish & Material: <span className="text-gray-500 font-normal">{activeMaterial?.name}</span>
+                  </span>
+                </div>
+                
+                <div className="flex flex-wrap gap-3">
+                  {product.materials.map((mat: any, idx: number) => {
+                    const isActive = activeMaterial?.name === mat.name;
+                    return (
+                      <button 
+                        key={idx}
+                        onClick={() => {
+                          setActiveMaterial(mat);
+                          if (mat.image) setActiveImg(mat.image);
+                        }}
+                        title={mat.name}
+                        // Using rounded-md (subtle square) visually distinguishes hard materials from soft fabric circles
+                        className={`relative flex items-center justify-center w-9 h-9 rounded-md border border-gray-300 ring-offset-2 transition focus:outline-none overflow-hidden ${
+                          isActive ? 'ring-2 ring-black' : 'hover:ring-2 hover:ring-gray-300'
+                        }`}
+                        style={{ backgroundColor: mat.hex }}
+                      >
+                        {/* Optional: if you have a close-up texture image of the wood/brass */}
+                        {mat.texture && (
+                          <img src={mat.texture} alt={mat.name} className="w-full h-full object-cover" />
+                        )}
+                        {isActive && <FaCheck className="absolute text-white text-[10px] drop-shadow-md" />}
+                      </button>
+                    );
+                  })}
+                </div>
               </div>
-            </div>
+            )}
 
             {/* Dimensions Preview */}
             <div className="mb-8 text-sm text-gray-600 font-light flex items-center gap-2">
@@ -105,7 +159,6 @@ export default function ProductDetailClient({ product }: { product: any }) {
 
             {/* Accordions */}
             <div className="border-t border-[#e5e5e5]">
-              
               <div className="border-b border-[#e5e5e5]">
                 <button 
                   onClick={() => toggleAccordion('details')}
@@ -135,8 +188,8 @@ export default function ProductDetailClient({ product }: { product: any }) {
                   </ul>
                 </div>
               </div>
-
             </div>
+
           </div>
         </div>
       </div>

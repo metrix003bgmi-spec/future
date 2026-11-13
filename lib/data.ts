@@ -1054,9 +1054,9 @@ export const productsDB: Record<string, any> = {
       "/Secondary/002.jpg"
     ],
     swatches: [
-      { name: "Techno 2D - Yellow", hex: "#dcb935" },
-      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
-      { name: "Techno 4D - Graphite", hex: "#525252" }
+      { name: "Techno 2D - Yellow", hex: "#006b59", image: "/Catalogue Images/Sofa Sets/ci.jpg" },
+      { name: "Techno 3D - Cobalt", hex: "#f7ffc7", image: "/colors/2cream.jpg" },
+      { name: "Techno 4D - Graphite", hex: "#ffb0f8", image: "/colors/2pink.jpg" }
     ],
     dimensions: {
       metric: "W. 238 x H. 80 x D. 113 cm",
@@ -1082,9 +1082,9 @@ export const productsDB: Record<string, any> = {
       "/Secondary/003.jpg"
     ],
     swatches: [
-      { name: "Kenzo Takada - Asagao", hex: "#c24e5b" },
-      { name: "Missoni Home - Chevron", hex: "#638ca6" },
-      { name: "Jean Paul Gaultier - Tartan", hex: "#ab3c35" }
+      { name: "Jean Paul Gaultier - Tartan", hex: "#e7d000", image: "/Catalogue Images/Sofa Sets/ci2.jpg" },
+      { name: "Kenzo Takada - Asagao", hex: "#2e5316e8", image: "/colors/1olive.jpg" },
+      { name: "Missoni Home - Chevron", hex: "#f875f8", image: "/colors/1pink.jpg" }
     ],
     dimensions: {
       metric: "Dimensions vary per composition",
