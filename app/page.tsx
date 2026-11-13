@@ -227,7 +227,7 @@ const toggleCategory = (title: string) => {
         />
 
         <VideoSection 
-          src="https://res.cloudinary.com/ltzf6tj4/video/upload/v1793885770/teaopt.mp4"
+          src="https://res.cloudinary.com/ltzf6tj4/video/upload/v1794556748/Lty.mp4"
           poster="https://embed-ssl.wistia.com/deliveries/5d542119ab7ed5f14a41c0795b0f188f526f5bff.jpg?image_crop_resized=1920x1080"
           title="Mah Jong"
           designer="Hans Hopfer"
