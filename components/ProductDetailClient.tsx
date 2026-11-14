@@ -2,96 +2,119 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { FaRulerCombined, FaMapMarkerAlt, FaPlus, FaMinus, FaCheck } from 'react-icons/fa';
+import { FaCheck } from 'react-icons/fa';
 
 export default function ProductDetailClient({ product }: { product: any }) {
-  const [activeImg, setActiveImg] = useState(product.images[0]);
-  
-  // State for Upholstery
-  const [activeSwatch, setActiveSwatch] = useState(product.swatches?.[0] || null);
-  
-  // State for Material / Finish (Veneer, Brass, etc.)
-  const [activeMaterial, setActiveMaterial] = useState(product.materials?.[0] || null);
-  
-  const [openAccordion, setOpenAccordion] = useState<string | null>(null);
-
-  const toggleAccordion = (section: string) => {
-    setOpenAccordion(openAccordion === section ? null : section);
-  };
+  // Safely initialize state. Defaults to null if the arrays don't exist on older products.
+  const [activeSeat, setActiveSeat] = useState(product.seats?.[0] || null);
+  const [activePillow, setActivePillow] = useState(product.pillows?.[0] || null);
 
   return (
     <div className="max-w-[1600px] mx-auto px-6 md:px-12 pb-24">
+      
       {/* Breadcrumbs */}
       <nav className="text-xs uppercase tracking-widest text-gray-400 font-semibold flex gap-2 py-4 mb-4">
         <Link href="/" className="hover:text-black transition">Home</Link>
         <span>/</span>
-        <Link href={`/${product.category.toLowerCase().replace(/\s+/g, '-')}`} className="hover:text-black transition">
+        <Link href={`/${product.category?.toLowerCase().replace(/\s+/g, '-') || ''}`} className="hover:text-black transition">
           {product.category}
         </Link>
         <span>/</span>
         <span className="text-black">{product.name}</span>
       </nav>
 
-      <div className="flex flex-col lg:flex-row gap-12 lg:gap-20 relative">
+      <div className="flex flex-col lg:flex-row gap-12 lg:gap-20">
         
-        {/* Left Column: Image Gallery */}
-        <div className="w-full lg:w-3/5 flex flex-col gap-4">
-          <div className="w-full bg-[#f4f4f4] aspect-[4/3] relative flex items-center justify-center overflow-hidden cursor-zoom-in group">
-            <img 
-              src={activeImg} 
-              alt={product.name} 
-              className="w-full h-full object-contain mix-blend-multiply p-4 transition-opacity duration-300"
-            />
-            <div className="absolute inset-0 bg-black/5 opacity-0 group-hover:opacity-100 transition duration-300"></div>
-          </div>
+        {/* Left Column: The 2D Layered Visualizer */}
+        <div className="w-full lg:w-3/5">
+          <div className="relative w-full aspect-[4/3] bg-[#f4f4f4] overflow-hidden flex items-center justify-center">
 
-          <div className="flex gap-4 overflow-x-auto no-scrollbar pb-2">
-            {product.images.map((img: string, idx: number) => (
-              <button 
-                key={idx}
-                onClick={() => setActiveImg(img)}
-                className={`flex-shrink-0 w-24 h-24 border-2 transition overflow-hidden bg-[#f4f4f4] ${
-                  activeImg === img ? 'border-black' : 'border-transparent hover:border-gray-300'
-                }`}
-              >
-                <img src={img} className="w-full h-full object-contain mix-blend-multiply p-1" alt={`Thumbnail ${idx + 1}`} />
-              </button>
-            ))}
+          {/* The Image Stack Container */}
+            <div className="relative w-full aspect-[4/3] bg-[#f4f4f4] overflow-hidden flex items-center justify-center">
+            
+              {/* Layer 0: Original Whole Sofa (Always visible at the back) */}
+              {product.baseImage && (
+                <img 
+                  src={product.baseImage} 
+                  className="absolute inset-0 w-full h-full object-contain z-0" 
+                  alt="Original Sofa Base" 
+                />
+              )}
+
+              {/* Layer 1: Seat Overlay */}
+              {activeSeat?.image && (
+                <img 
+                  key={activeSeat.image}
+                  src={activeSeat.image} 
+                  // z-10 puts the seat color directly on top of the original sofa
+                  className="absolute inset-0 w-full h-full object-contain z-10 transition-opacity duration-500 animate-fade-in" 
+                  alt="Seat Color" 
+                />
+              )}
+
+              {/* Layer 2: Pillow Overlay */}
+              {activePillow?.image && (
+                <img 
+                  key={activePillow.image}
+                  src={activePillow.image} 
+                  // z-20 puts the pillows on top of both the base sofa and the seat
+                  className="absolute inset-0 w-full h-full object-contain z-20 transition-opacity duration-500 animate-fade-in" 
+                  alt="Pillow Color" 
+                />
+              )}
+            </div>
+            
+            {/* Layer 0: Shadows (Optional Base) */}
+            {product.shadowImage && (
+              <img 
+                src={product.shadowImage} 
+                className="absolute inset-0 w-full h-full object-contain z-0 mix-blend-multiply opacity-80" 
+                alt="Shadows" 
+              />
+            )}
+
+            {/* Layer 1: Seat / Main Body */}
+            {activeSeat?.image && (
+              <img 
+                key={activeSeat.image}
+                src={activeSeat.image} 
+                className="absolute inset-0 w-full h-full object-contain z-10 transition-opacity duration-500 animate-fade-in" 
+                alt="Seat" 
+              />
+            )}
+
+            {/* Layer 2: Pillows */}
+            {activePillow?.image && (
+              <img 
+                key={activePillow.image}
+                src={activePillow.image} 
+                className="absolute inset-0 w-full h-full object-contain z-20 transition-opacity duration-500 animate-fade-in" 
+                alt="Pillow" 
+              />
+            )}
           </div>
         </div>
 
-        {/* Right Column: Product Information */}
-        <div className="w-full lg:w-2/5 relative">
+        {/* Right Column: Customization Controls */}
+        <div className="w-full lg:w-2/5">
           <div className="lg:sticky lg:top-32 flex flex-col">
             
-            <h2 className="font-lato text-4xl md:text-5xl font-light uppercase tracking-wide mb-2">{product.name}</h2>
-            <h3 className="text-lg uppercase tracking-widest text-gray-500 font-semibold mb-4">{product.type}</h3>
-            <p className="font-sans text-sm text-[#656565] mb-8">designed by {product.designer}</p>
+            <h2 className="font-lato text-4xl md:text-5xl font-light uppercase tracking-wide mb-8">{product.name}</h2>
 
-            {/* 1. Upholstery Swatches */}
-            {product.swatches && product.swatches.length > 0 && (
+            {/* --- Seat Control --- */}
+            {product.seats && product.seats.length > 0 && activeSeat && (
               <div className="mb-6">
-                <div className="flex justify-between items-center mb-3">
-                  <span className="text-xs uppercase tracking-widest font-semibold">
-                    Upholstery: <span className="text-gray-500 font-normal">{activeSwatch?.name}</span>
-                  </span>
-                </div>
-                
+                <p className="text-xs uppercase tracking-widest font-semibold mb-3">
+                  Seat: <span className="text-gray-500 font-normal">{activeSeat.name}</span>
+                </p>
                 <div className="flex flex-wrap gap-3">
-                  {product.swatches.map((swatch: any, idx: number) => {
-                    const isActive = activeSwatch?.name === swatch.name;
+                  {product.seats.map((item: any, idx: number) => {
+                    const isActive = activeSeat.name === item.name;
                     return (
                       <button 
-                        key={idx}
-                        onClick={() => {
-                          setActiveSwatch(swatch);
-                          if (swatch.image) setActiveImg(swatch.image);
-                        }}
-                        title={swatch.name}
-                        className={`relative flex items-center justify-center w-9 h-9 rounded-full border border-gray-300 ring-offset-2 transition focus:outline-none ${
-                          isActive ? 'ring-2 ring-black' : 'hover:ring-2 hover:ring-gray-300'
-                        }`}
-                        style={{ backgroundColor: swatch.hex }}
+                        key={idx} onClick={() => setActiveSeat(item)}
+                        className={`relative flex items-center justify-center w-9 h-9 rounded-full border border-gray-300 transition ${isActive ? 'ring-2 ring-black' : 'hover:ring-2 hover:ring-gray-300'}`}
+                        style={{ backgroundColor: item.hex }}
                       >
                         {isActive && <FaCheck className="text-white text-[10px] drop-shadow-md" />}
                       </button>
@@ -101,37 +124,22 @@ export default function ProductDetailClient({ product }: { product: any }) {
               </div>
             )}
 
-            {/* 2. Material / Finish Swatches (Veneer, Brass, etc.) */}
-            {product.materials && product.materials.length > 0 && (
-              <div className="mb-8 pt-5 border-t border-gray-100">
-                <div className="flex justify-between items-center mb-3">
-                  <span className="text-xs uppercase tracking-widest font-semibold">
-                    Finish & Material: <span className="text-gray-500 font-normal">{activeMaterial?.name}</span>
-                  </span>
-                </div>
-                
+            {/* --- Pillow Control --- */}
+            {product.pillows && product.pillows.length > 0 && activePillow && (
+              <div className="mb-6 pt-5 border-t border-gray-100">
+                <p className="text-xs uppercase tracking-widest font-semibold mb-3">
+                  Pillows: <span className="text-gray-500 font-normal">{activePillow.name}</span>
+                </p>
                 <div className="flex flex-wrap gap-3">
-                  {product.materials.map((mat: any, idx: number) => {
-                    const isActive = activeMaterial?.name === mat.name;
+                  {product.pillows.map((item: any, idx: number) => {
+                    const isActive = activePillow.name === item.name;
                     return (
                       <button 
-                        key={idx}
-                        onClick={() => {
-                          setActiveMaterial(mat);
-                          if (mat.image) setActiveImg(mat.image);
-                        }}
-                        title={mat.name}
-                        // Using rounded-md (subtle square) visually distinguishes hard materials from soft fabric circles
-                        className={`relative flex items-center justify-center w-9 h-9 rounded-md border border-gray-300 ring-offset-2 transition focus:outline-none overflow-hidden ${
-                          isActive ? 'ring-2 ring-black' : 'hover:ring-2 hover:ring-gray-300'
-                        }`}
-                        style={{ backgroundColor: mat.hex }}
+                        key={idx} onClick={() => setActivePillow(item)}
+                        className={`relative flex items-center justify-center w-9 h-9 rounded-full border border-gray-300 transition ${isActive ? 'ring-2 ring-black' : 'hover:ring-2 hover:ring-gray-300'}`}
+                        style={{ backgroundColor: item.hex }}
                       >
-                        {/* Optional: if you have a close-up texture image of the wood/brass */}
-                        {mat.texture && (
-                          <img src={mat.texture} alt={mat.name} className="w-full h-full object-cover" />
-                        )}
-                        {isActive && <FaCheck className="absolute text-white text-[10px] drop-shadow-md" />}
+                        {isActive && <FaCheck className="text-white text-[10px] drop-shadow-md" />}
                       </button>
                     );
                   })}
@@ -139,59 +147,9 @@ export default function ProductDetailClient({ product }: { product: any }) {
               </div>
             )}
 
-            {/* Dimensions Preview */}
-            <div className="mb-8 text-sm text-gray-600 font-light flex items-center gap-2">
-              <FaRulerCombined className="text-gray-400" />
-              <span>{product.dimensions.metric}</span>
-              <span className="text-gray-300 mx-2">|</span>
-              <span>{product.dimensions.imperial}</span>
-            </div>
-
-            {/* CTAs */}
-            <div className="flex flex-col gap-3 mb-10">
-              <button className="w-full bg-black text-white text-xs font-bold uppercase tracking-widest py-4 hover:bg-gray-800 transition">
-                Add to Selection
-              </button>
-              <button className="w-full bg-white border border-black text-black text-xs font-bold uppercase tracking-widest py-4 hover:bg-[#f4f4f4] transition flex justify-center items-center gap-2">
-                <FaMapMarkerAlt /> Find a Showroom
-              </button>
-            </div>
-
-            {/* Accordions */}
-            <div className="border-t border-[#e5e5e5]">
-              <div className="border-b border-[#e5e5e5]">
-                <button 
-                  onClick={() => toggleAccordion('details')}
-                  className="w-full py-5 flex justify-between items-center text-left focus:outline-none group"
-                >
-                  <span className="text-sm font-semibold uppercase tracking-widest group-hover:text-gray-500 transition">Product Details</span>
-                  {openAccordion === 'details' ? <FaMinus className="text-xs text-gray-400" /> : <FaPlus className="text-xs text-gray-400" />}
-                </button>
-                <div className={`overflow-hidden transition-all duration-400 ease-in-out ${openAccordion === 'details' ? 'max-h-[500px] pb-6' : 'max-h-0'}`}>
-                  <p className="text-sm text-[#656565] font-light leading-relaxed">{product.details}</p>
-                </div>
-              </div>
-
-              <div className="border-b border-[#e5e5e5]">
-                <button 
-                  onClick={() => toggleAccordion('dimensions')}
-                  className="w-full py-5 flex justify-between items-center text-left focus:outline-none group"
-                >
-                  <span className="text-sm font-semibold uppercase tracking-widest group-hover:text-gray-500 transition">Dimensions</span>
-                  {openAccordion === 'dimensions' ? <FaMinus className="text-xs text-gray-400" /> : <FaPlus className="text-xs text-gray-400" />}
-                </button>
-                <div className={`overflow-hidden transition-all duration-400 ease-in-out ${openAccordion === 'dimensions' ? 'max-h-[500px] pb-6' : 'max-h-0'}`}>
-                  <ul className="list-disc pl-5 mb-4 space-y-1 text-sm text-[#656565] font-light leading-relaxed">
-                    {product.dimensions.list.map((dim: string, idx: number) => (
-                      <li key={idx}>{dim}</li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-            </div>
-
           </div>
         </div>
+
       </div>
     </div>
   );

@@ -1045,29 +1045,23 @@ export const productsDB: Record<string, any> = {
     id: "bubble",
     category: "Sofas",
     name: "Bubble",
-    type: "Curved 3-Seat Sofa",
-    designer: "Sacha Lakic",
-    images: [
-      "/Catalogue Images/Sofa Sets/ci.jpg",
-      "/Catalogue Images/Sofa Sets/ci9.jpg",
-      "/Catalogue Images/Sofa Sets/ci10.jpg",
-      "/Secondary/002.jpg"
+    type: "Sofa",
+    designer: "Hans Hopfer",
+    // shadowImage: "/images/sofa/shadow-base.png", // Optional
+
+    baseImage: "/Catalogue Images/Sofa Sets/ci.jpg", // Base image for the product
+
+    // Layer 1: The Seat / Main Body
+    seats: [
+      { name: "Boucle - Pearl", hex: "#e5e3de", image: "/gallery/seat.png" },
+      { name: "Boucle - Charcoal", hex: "#333333", image: "/gallery/yellow_seat.png" }
     ],
-    swatches: [
-      { name: "Techno 2D - Yellow", hex: "#006b59", image: "/Catalogue Images/Sofa Sets/ci.jpg" },
-      { name: "Techno 3D - Cobalt", hex: "#f7ffc7", image: "/colors/2cream.jpg" },
-      { name: "Techno 4D - Graphite", hex: "#ffb0f8", image: "/colors/2pink.jpg" }
+    
+    // Layer 2: The Pillows
+    pillows: [
+      { name: "Velvet - Rust", hex: "#9b4731", image: "/gallery/pillow.png" },
+      { name: "Velvet - Sage", hex: "#7a8a76", image: "/gallery/yellow_pillow.png" }
     ],
-    dimensions: {
-      metric: "W. 238 x H. 80 x D. 113 cm",
-      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
-      list: [
-        "Width: 238 cm (93.7\")",
-        "Height: 80 cm (31.5\")",
-        "Depth: 113 cm (44.5\")"
-      ]
-    },
-    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
   },
   "mah-jong": {
     id: "mah-jong",
