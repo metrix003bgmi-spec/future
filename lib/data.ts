@@ -1066,9 +1066,9 @@ export const productsDB: Record<string, any> = {
 
     // Layer 3: Main Upholstery / Seat
     upholstery: [
-      { name: "Velvet - Yellow", hex: "#d0d30f", image: "/gallery/yellow_seat.png" },
+      { name: "Teal", hex: "#3ab3c4", image: "/gallery/base1.png" },
       { name: "Royal Green", hex: "#01550c", image: "/gallery/rgreen_uphol.png" },
-      // { name: "Velvet - Deep Emerald", hex: "#23423c", image: "/images/sofa/upholstery-emerald.png" }
+      { name: "Royal Red", hex: "#9b0000", image: "/gallery/red_uphol.png" }
     ],
 
     // Layer 4: Metallic Rims / Armrest Accents (Optional)
@@ -1080,8 +1080,8 @@ export const productsDB: Record<string, any> = {
 
     // Layer 5: Throw Pillows (Removable via Show/Hide toggle)
     pillows: [
-      { name: "Yellow", hex: "#ecd609", image: "/gallery/yellow_pillow.png" },
-      // { name: "Velvet - Rust", hex: "#9b4731", image: "/images/sofa/pillows-rust.png" },
+      { name: "teal", hex: "#08898d", image: "/gallery/teal_pillow.png" },
+      { name: "white", hex: "#fff3f0", image: "/gallery/whitegreen_pillow.png" },
       // { name: "Boucle - Pearl", hex: "#e5e3de", image: "/images/sofa/pillows-pearl.png" }
     ],
 
