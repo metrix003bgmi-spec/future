@@ -1041,55 +1041,91 @@ export const catalogData = {
 
 // 2. Detailed Database for Individual Product Pages (e.g., /product/bubble)
 export const productsDB: Record<string, any> = {
+  // Example 1: Full-Featured Sofa (Brass Rims, Woven Base, Pillows, Pillow Belts)
   "bubble": {
     id: "bubble",
     category: "Sofas",
     name: "Bubble",
     type: "Sofa",
-    designer: "Hans Hopfer",
-    // shadowImage: "/images/sofa/shadow-base.png", // Optional
-
-    baseImage: "/Catalogue Images/Sofa Sets/ci.jpg", // Base image for the product
-
-    // Layer 1: The Seat / Main Body
-    seats: [
-      { name: "Boucle - Pearl", hex: "#e5e3de", image: "/gallery/seat.png" },
-      { name: "Boucle - Charcoal", hex: "#333333", image: "/gallery/yellow_seat.png" }
-    ],
+    designer: "FurnWalk Studio",
     
-    // Layer 2: The Pillows
+    // Layer 0: Static foundation (original sofa or base shadow)
+    baseImage: "/gallery/base1.png",
+
+    // Layer 1: Legs (Optional)
+    // legs: [
+    //   { name: "Brushed Brass", hex: "#c5a059", image: "/images/sofa/legs-brass.png" },
+    //   { name: "Matte Black Metal", hex: "#1c1c1c", image: "/images/sofa/legs-black.png" }
+    // ],
+
+    // Layer 2: Lower Base / Frame (Optional)
+    // base: [
+    //   { name: "Bronze Woven Cane", hex: "#6e5a3b", image: "/images/sofa/base-bronze.png" },
+    //   { name: "Smoked Oak Veneer", hex: "#4a3728", image: "/images/sofa/base-oak.png" }
+    // ],
+
+    // Layer 3: Main Upholstery / Seat
+    upholstery: [
+      { name: "Velvet - Yellow", hex: "#d0d30f", image: "/gallery/yellow_seat.png" },
+      { name: "Royal Green", hex: "#01550c", image: "/gallery/rgreen_uphol.png" },
+      // { name: "Velvet - Deep Emerald", hex: "#23423c", image: "/images/sofa/upholstery-emerald.png" }
+    ],
+
+    // Layer 4: Metallic Rims / Armrest Accents (Optional)
+    // rims: [
+    //   { name: "Champagne Brass", hex: "#d4af37", image: "/images/sofa/rim-brass.png" },
+    //   { name: "Dark Gunmetal", hex: "#2a2d34", image: "/images/sofa/rim-gunmetal.png" },
+    //   { name: "Rose Gold", hex: "#b76e79", image: "/images/sofa/rim-rosegold.png" }
+    // ],
+
+    // Layer 5: Throw Pillows (Removable via Show/Hide toggle)
     pillows: [
-      { name: "Velvet - Rust", hex: "#9b4731", image: "/gallery/pillow.png" },
-      { name: "Velvet - Sage", hex: "#7a8a76", image: "/gallery/yellow_pillow.png" }
+      { name: "Yellow", hex: "#ecd609", image: "/gallery/yellow_pillow.png" },
+      // { name: "Velvet - Rust", hex: "#9b4731", image: "/images/sofa/pillows-rust.png" },
+      // { name: "Boucle - Pearl", hex: "#e5e3de", image: "/images/sofa/pillows-pearl.png" }
     ],
-  },
-  "mah-jong": {
-    id: "mah-jong",
-    category: "Modular Sofas",
-    name: "Mah Jong",
-    type: "Modular Sofa Composition",
-    designer: "Hans Hopfer",
-    images: [
-      "/Catalogue Images/Sofa Sets/ci2.jpg",
-      "/gallery/g1.jpg",
-      "/gallery/g2.jpg",
-      "/Secondary/003.jpg"
-    ],
-    swatches: [
-      { name: "Jean Paul Gaultier - Tartan", hex: "#e7d000", image: "/Catalogue Images/Sofa Sets/ci2.jpg" },
-      { name: "Kenzo Takada - Asagao", hex: "#2e5316e8", image: "/colors/1olive.jpg" },
-      { name: "Missoni Home - Chevron", hex: "#f875f8", image: "/colors/1pink.jpg" }
-    ],
+
+    // Layer 6: Pillow Belts (Removable, and automatically hides if Pillows are hidden)
+    // pillowBelts: [
+    //   { name: "Sage Leather", hex: "#7a8a76", image: "/images/sofa/belt-sage.png" },
+    //   { name: "Saddle Tan Leather", hex: "#8b5a2b", image: "/images/sofa/belt-tan.png" },
+    //   { name: "Onyx Black Leather", hex: "#1c1c1c", image: "/images/sofa/belt-black.png" }
+    // ],
+
     dimensions: {
-      metric: "Dimensions vary per composition",
-      imperial: "Dimensions vary per composition",
+      metric: "W. 250 x H. 82 x D. 115 cm",
+      imperial: "98.4\"w x 32.3\"h x 45.3\"d",
       list: [
-        "Seat cushion: W. 95 x H. 19 x D. 95 cm",
-        "Straight backrest: W. 95 x H. 53 x D. 95 cm",
-        "Corner backrest: W. 95 x H. 53 x D. 95 cm"
+        "Width: 250 cm (98.4\")",
+        "Height: 82 cm (32.3\")",
+        "Depth: 115 cm (45.3\")"
       ]
     },
-    details: "Modular seating system designed by Hans Hopfer. Allows for infinite combinations. Hand-tufted, hand-sewn, and hand-finished. Fabrics chosen from haute couture fashion houses."
+    details: "Bespoke curved silhouette featuring customizable woven base, metallic trim accents, and modular bolster cushions with leather belt detailing."
+  },
+
+  // Example 2: Simpler Modular Sofa (Only Seat & Pillows — No Rims or Belts)
+  "mah-jong": {
+    id: "mah-jong",
+    category: "Sofas",
+    name: "Mah Jong",
+    type: "Sofa",
+    designer: "FurnWalk Studio",
+    baseImage: "/Catalogue Images/Sofa Sets/ci2.jpg",
+    seats: [
+      { name: "Boucle - Pearl", hex: "#e5e3de", image: "/images/sofa/seat-pearl.png" },
+      { name: "Boucle - Charcoal", hex: "#333333", image: "/images/sofa/seat-charcoal.png" }
+    ],
+    pillows: [
+      { name: "Velvet - Rust", hex: "#9b4731", image: "/images/sofa/pillow-rust.png" },
+      { name: "Velvet - Sage", hex: "#7a8a76", image: "/images/sofa/pillow-sage.png" }
+    ],
+    dimensions: {
+      metric: "W. 240 x H. 80 x D. 110 cm",
+      imperial: "94.5\"w x 31.5\"h x 43.3\"d",
+      list: ["Width: 240 cm", "Height: 80 cm", "Depth: 110 cm"]
+    },
+    details: "Fully customizable modular sofa system."
   },
   "meridian": {
     id: "meridian",
