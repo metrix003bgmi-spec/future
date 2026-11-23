@@ -1050,7 +1050,7 @@ export const productsDB: Record<string, any> = {
     designer: "FurnWalk Studio",
     
     // Layer 0: Static foundation (original sofa or base shadow)
-    baseImage: "/gallery/base1.png",
+    baseImage: "/gallery/main.png",
 
     // Layer 1: Legs (Optional)
     // legs: [
@@ -1066,9 +1066,10 @@ export const productsDB: Record<string, any> = {
 
     // Layer 3: Main Upholstery / Seat
     upholstery: [
-      { name: "Teal", hex: "#3ab3c4", image: "/gallery/base1.png" },
-      { name: "Royal Green", hex: "#01550c", image: "/gallery/rgreen_uphol.png" },
-      { name: "Royal Red", hex: "#9b0000", image: "/gallery/red_uphol.png" }
+      { name: "Teal", hex: "#3ab3c4", image: "/gallery/main.png" },
+      { name: "Royal Green", hex: "#01550c", image: "/colors/greenn.png" },
+      { name: "Royal Red", hex: "#9b0000", image: "/colors/redd.png" },
+      { name: "Ivory", hex: "#fff7d2", image: "/colors/ivo.png" }
     ],
 
     // Layer 4: Metallic Rims / Armrest Accents (Optional)
@@ -1111,14 +1112,16 @@ export const productsDB: Record<string, any> = {
     name: "Mah Jong",
     type: "Sofa",
     designer: "FurnWalk Studio",
-    baseImage: "/Catalogue Images/Sofa Sets/ci2.jpg",
-    seats: [
-      { name: "Boucle - Pearl", hex: "#e5e3de", image: "/images/sofa/seat-pearl.png" },
-      { name: "Boucle - Charcoal", hex: "#333333", image: "/images/sofa/seat-charcoal.png" }
+    baseImage: "colors/2yellow.png",
+    upholstery: [
+      { name: "Boucle - Pearl", hex: "#ffc32d", image: "/colors/2yellow.png" },
+      { name: "Boucle - Charcoal", hex: "#1f581f", image: "/colors/2green.png" },
+      { name: "Boucle - Olive", hex: "#AE8882", image: "/colors/2pink.png" },
+      { name: "Boucle - Royal Red", hex: "#643C45", image: "/colors/2magenta.png" }
     ],
     pillows: [
-      { name: "Velvet - Rust", hex: "#9b4731", image: "/images/sofa/pillow-rust.png" },
-      { name: "Velvet - Sage", hex: "#7a8a76", image: "/images/sofa/pillow-sage.png" }
+      { name: "Velvet - Rust", hex: "#3c850c", image: "/images/sofa/pillow-rust.png" },
+      { name: "Velvet - Sage", hex: "#643C45", image: "/images/sofa/pillow-sage.png" }
     ],
     dimensions: {
       metric: "W. 240 x H. 80 x D. 110 cm",
