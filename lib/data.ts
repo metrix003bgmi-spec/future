@@ -1134,29 +1134,25 @@ export const productsDB: Record<string, any> = {
     id: "meridian",
     category: "Sofas",
     name: "Meridian",
-    type: "Curved 3-Seat Sofa",
+    type: "Sofa",
     designer: "Sacha Lakic",
-    images: [
-      "/Catalogue Images/Sofa Sets/ci3.jpg",
-      "/gallery/g3.jpg",
-      "/gallery/g4.jpg",
-      "/Secondary/001.jpg"
+    baseImage: "colors/2yellow.png",
+    upholstery: [
+      { name: "Boucle - Pearl", hex: "#DBD8D1", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795701703/2.png" },
+      { name: "Boucle - Charcoal", hex: "#AE8882", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795701703/1.png" },
+      { name: "Boucle - Olive", hex: " #85917E", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795701709/4.png" },
+      { name: "Boucle - Royal Red", hex: "#78675B", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795701709/3.png" }
     ],
-    swatches: [
-      { name: "Techno 2D - Yellow", hex: "#dcb935" },
-      { name: "Techno 3D - Cobalt", hex: "#2b4a78" },
-      { name: "Techno 4D - Graphite", hex: "#525252" }
+    pillows: [
+      { name: "Velvet - Rust", hex: "#3c850c", image: "/images/sofa/pillow-rust.png" },
+      { name: "Velvet - Sage", hex: "#643C45", image: "/images/sofa/pillow-sage.png" }
     ],
     dimensions: {
-      metric: "W. 238 x H. 80 x D. 113 cm",
-      imperial: "93.7\"w x 31.5\"h x 44.5\"d",
-      list: [
-        "Width: 238 cm (93.7\")",
-        "Height: 80 cm (31.5\")",
-        "Depth: 113 cm (44.5\")"
-      ]
+      metric: "W. 240 x H. 80 x D. 110 cm",
+      imperial: "94.5\"w x 31.5\"h x 43.3\"d",
+      list: ["Width: 240 cm", "Height: 80 cm", "Depth: 110 cm"]
     },
-    details: "Upholstered in TECHNO 2D, 3D or 4D fabric. Completely hand-made, entirely constructed with bi-density HR polyurethane foam on a solid wood frame. Exceptional comfort and bold design."
+    details: "Fully customizable modular sofa system."
   },
   "verio": {
     id: "verio",
