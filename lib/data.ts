@@ -1138,10 +1138,17 @@ export const productsDB: Record<string, any> = {
     designer: "Sacha Lakic",
     baseImage: "colors/2yellow.png",
     upholstery: [
-      { name: "Boucle - Pearl", hex: "#DBD8D1", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795701703/2.png" },
-      { name: "Boucle - Charcoal", hex: "#AE8882", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795701703/1.png" },
-      { name: "Boucle - Olive", hex: " #85917E", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795701709/4.png" },
-      { name: "Boucle - Royal Red", hex: "#78675B", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795701709/3.png" }
+      { name: "Early Frost", hex: "#DBD8D1", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795701703/2.png" },
+      { name: "Rosy Brown", hex: "#AE8882", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795701703/1.png" },
+      { name: "Sage Green", hex: " #85917E", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795701709/4.png" },
+      { name: "Taupe", hex: "#78675B", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795701709/3.png" },
+      { name: "Deep Sage", hex: "#46584C", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795772493/6.png" },
+      { name: "Dusty Plum", hex: "#684C57", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795772490/11.png" },
+      { name: "Reddish Plum", hex: " #643C45", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795772490/10.png" },
+      { name: "Blue Gray", hex: "#4E6972", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795772489/7.png" },
+      { name: "Cool Gray Blue", hex: "#52687A", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795772493/8.png" },
+      { name: "Dusty Beige", hex: "#B4A28F", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795772489/9.png" },
+      { name: "Nutmeg", hex: "#876C5C", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795772493/5.png" }
     ],
     pillows: [
       { name: "Velvet - Rust", hex: "#3c850c", image: "/images/sofa/pillow-rust.png" },
@@ -1160,11 +1167,18 @@ export const productsDB: Record<string, any> = {
     name: "Verio",
     type: "Curved 3-Seat Sofa",
     designer: "Sacha Lakic",
-    images: [
-      "/Catalogue Images/Sofa Sets/ci4.jpg",
-      "/gallery/g5.jpg",
-      "/gallery/g6.jpg",
-      "/Secondary/005.jpg"
+    upholstery: [
+      { name: "Early Frost", hex: "#DBD8D1", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795787968/verio_1.png" },
+      { name: "Rosy Brown", hex: "#AE8882", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795787968/verio_2.png" },
+      { name: "Sage Green", hex: " #85917E", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795787971/verio_3.png" },
+      { name: "Taupe", hex: "#78675B", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795787973/verio_4.png" },
+      { name: "Deep Sage", hex: "#46584C", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795787968/verio_5.png" }
+      // { name: "Dusty Plum", hex: "#684C57", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795772490/11.png" }
+      // { name: "Reddish Plum", hex: " #643C45", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795772490/10.png" },
+      // { name: "Blue Gray", hex: "#4E6972", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795772489/7.png" },
+      // { name: "Cool Gray Blue", hex: "#52687A", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795772493/8.png" },
+      // { name: "Dusty Beige", hex: "#B4A28F", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795772489/9.png" },
+      // { name: "Nutmeg", hex: "#876C5C", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795772493/5.png" }
     ],
     swatches: [
       { name: "Techno 2D - Yellow", hex: "#dcb935" },
@@ -1188,11 +1202,18 @@ export const productsDB: Record<string, any> = {
     name: "Milano",
     type: "Curved 3-Seat Sofa",
     designer: "Sacha Lakic",
-    images: [
-      "/Catalogue Images/Sofa Sets/ci5.jpg",
-      "/gallery/g7.jpg",
-      "/gallery/g8.jpg",
-      "/Secondary/004.jpg"
+    upholstery: [
+      { name: "Early Frost", hex: "#876C5C", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795790090/milano_1.png" },
+      { name: "Rosy Brown", hex: "#46584C", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795790085/milano_2.png" }
+      // { name: "Sage Green", hex: " #85917E", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795787971/verio_3.png" },
+      // { name: "Taupe", hex: "#78675B", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795787973/verio_4.png" },
+      // { name: "Deep Sage", hex: "#46584C", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795787968/verio_5.png" }
+      // { name: "Dusty Plum", hex: "#684C57", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795772490/11.png" }
+      // { name: "Reddish Plum", hex: " #643C45", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795772490/10.png" },
+      // { name: "Blue Gray", hex: "#4E6972", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795772489/7.png" },
+      // { name: "Cool Gray Blue", hex: "#52687A", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795772493/8.png" },
+      // { name: "Dusty Beige", hex: "#B4A28F", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795772489/9.png" },
+      // { name: "Nutmeg", hex: "#876C5C", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795772493/5.png" }
     ],
     swatches: [
       { name: "Techno 2D - Yellow", hex: "#dcb935" },
