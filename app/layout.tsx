@@ -1,6 +1,8 @@
 import './globals.css';
 import { Inter, Atkinson_Hyperlegible } from 'next/font/google';
-import { Analytics } from "@vercel/analytics/next"
+import ClarityProvider from '@/components/ClarityProvider';
+
+
 
 const primaryFont = Inter({
   subsets: ['latin'],
@@ -20,15 +22,13 @@ export const metadata = {
   description: 'Premium Furniture Website',
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${primaryFont.variable} ${headingFont.variable}`}>
       <body className="font-sans antialiased bg-white m-0 p-0">
         {children}
+        <ClarityProvider />
       </body>
     </html>
   );
