@@ -1168,7 +1168,7 @@ export const productsDB: Record<string, any> = {
     type: "Curved 3-Seat Sofa",
     designer: "Sacha Lakic",
     upholstery: [
-      { name: "Early Frost", hex: "#DBD8D1", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795787968/verio_1.png" },
+      { name: "Rosy Brown", hex: "#AE8882", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795787968/verio_1.png" },
       { name: "Rosy Brown", hex: "#AE8882", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795787968/verio_2.png" },
       { name: "Sage Green", hex: " #85917E", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795787971/verio_3.png" },
       { name: "Taupe", hex: "#78675B", image: "https://res.cloudinary.com/ltzf6tj4/image/upload/v1795787973/verio_4.png" },

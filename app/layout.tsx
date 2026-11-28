@@ -1,5 +1,6 @@
 import './globals.css';
 import { Inter, Atkinson_Hyperlegible } from 'next/font/google';
+import { Analytics } from "@vercel/analytics/next"
 
 const primaryFont = Inter({
   subsets: ['latin'],
